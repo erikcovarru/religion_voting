@@ -19,6 +19,3 @@
 *.dvi
 *.tmp
 *.xdv
-
-# Large files
-*.gpkg
