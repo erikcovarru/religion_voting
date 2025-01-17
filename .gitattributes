@@ -1,2 +1,2 @@
-Desktop/PhD[[:space:]]in[[:space:]]Economics/Fourth[[:space:]]Term/Urban[[:space:]]Economics/religion_voting/data/DE_VG250.gpkg filter=lfs diff=lfs merge=lfs -text
+Desktop/PhD[[:space:]]in[[:space:]]Economics/Fourth[[:space:]]Term/Urban[[:space:]]Economics/religion_voting/data/shapefiles/vg250_ebenen_1231/DE_VG250.gpkg filter=lfs diff=lfs merge=lfs -text
 *.gpkg filter=lfs diff=lfs merge=lfs -text
