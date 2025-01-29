@@ -1,0 +1,1 @@
+addto_gI(1,9,3,"poly",'<area shape="poly" coords="4841,2048,4608,2048,4608,1536,4841,1536,4841,2048" href="javascript:show_popup(194);" id="194_area" title="&#80;&#111;&#108;&#101;&#110;"/>');

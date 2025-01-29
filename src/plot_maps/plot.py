@@ -25,7 +25,7 @@ plot_map_religion(
     column='Catholic',
     cmap='Reds',
     legend_label='Catholics %',
-    output_folder="../bld/maps",
+    output_folder="../../bld/maps",
     filename="catholic_distribution_map.png"
 )
 
@@ -35,7 +35,7 @@ plot_map_religion(
     column='Protestant',
     cmap='Blues',
     legend_label='Protestants %',
-    output_folder="../bld/maps",
+    output_folder="../../bld/maps",
     filename="protestant_distribution_map.png"
 )
 
@@ -45,6 +45,6 @@ plot_map_religion(
     column='None',
     cmap='Greys',
     legend_label='None %',
-    output_folder="../bld/maps",
+    output_folder="../../bld/maps",
     filename="none_distribution_map.png"
 )
