@@ -1,0 +1,565 @@
+book,region,id_name,territory_name,territory_name_old,capital_name,capital_lat_long,territory_secular_rule,territory_start_secular_rule,territory_end_secular_rule,territory_ecclesiastical_rule,territory_start_ecclesiastical_rule,territory_end_ecclesiastical_rule,territory_religion,territory_start_religion,territory_end_religion,alliance,start_alliance,source,table_on_wikipedia
+SW,Baden,Baden,Baden,Baden,Baden-Baden,"48.7656° N, 8.2285° E",margraviate,1112,1535,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Markgrafschaft_Baden,y
+SW,Baden,Baden-Durlach,Baden-Durlach,Baden-Durlach,Pforzheim,"48.8922° N,  8.6946° E",margraviate,1535,1771,,,,Roman-catholic,,1556,,,https://de.wikipedia.org/wiki/Markgrafschaft_Baden-Durlach,y
+SW,Baden,Baden-Durlach,Baden-Durlach,Baden-Durlach,Pforzheim,"48.8922° N,  8.6946° E",margraviate,1535,1771,,,,lutheran,1556,,,,https://de.wikipedia.org/wiki/Markgrafschaft_Baden-Durlach,y
+SW,Baden,Baden-Baden,Baden-Baden,Baden-Baden,Baden-Baden,"48.7656° N, 8.2285° E",margraviate,1535,1771,,,,"Free, reformed",,1569,,,https://de.wikipedia.org/wiki/Markgrafschaft_Baden-Baden,n
+SW,Baden,Baden-Baden,Baden-Baden,Baden-Baden,Baden-Baden,"48.7656° N, 8.2285° E",margraviate,1535,1771,,,,Roman-catholic,1569,,,,https://de.wikipedia.org/wiki/Markgrafschaft_Baden-Baden,n
+SW,Württemberg,Württemberg,Württemberg,Württemberg,Stuttgart,"48.7758° N, 9.1829° E",duchy,1495,1803,,,,Roman-catholic,,1534,SL,1536,https://de.wikipedia.org/wiki/W%C3%BCrttemberg,n
+SW,Württemberg,Württemberg,Württemberg,Württemberg,Stuttgart,"48.7758° N, 9.1829° E",duchy,1495,1803,,,,"lutheran, reformed",1534,1538,SL,1536,https://de.wikipedia.org/wiki/W%C3%BCrttemberg,n
+SW,Württemberg,Württemberg,Württemberg,Württemberg,Stuttgart,"48.7758° N, 9.1829° E",duchy,1495,1803,,,,lutheran,1538,,SL,1536,https://de.wikipedia.org/wiki/W%C3%BCrttemberg,n
+SW,Kurpfalz,Kurpfalz,Kurpfalz,Kurpfalz,Heidelberg,"49.3988° N, 8.6724° E",electorate,1356,1777,,,,Roman-catholic,,1556,,,https://de.wikipedia.org/wiki/Kurpfalz,y
+SW,Kurpfalz,Kurpfalz,Kurpfalz,Kurpfalz,Heidelberg,"49.3988° N, 8.6724° E",electorate,1356,1777,,,,lutheran,1556,1563,,,https://de.wikipedia.org/wiki/Kurpfalz,y
+SW,Kurpfalz,Kurpfalz,Kurpfalz,Kurpfalz,Heidelberg,"49.3988° N, 8.6724° E",electorate,1356,1777,,,,calvinist,1563,1685,,,https://de.wikipedia.org/wiki/Kurpfalz,y
+SW,Kurpfalz,Kurpfalz,Kurpfalz,Kurpfalz,Heidelberg,"49.3988° N, 8.6724° E",electorate,1356,1777,,,,Roman-catholic,1685,,,,https://de.wikipedia.org/wiki/Kurpfalz,y
+SW,Kurpfalz,Pfalz-Simmern,Pfalz-Simmern,Pfalz-Simmern,Sponheim,"49.8442° N, 7.7268° E",principality,1453,1685,,,,Roman-catholic,,1559,,,https://de.wikipedia.org/wiki/Pfalz-Simmern-Zweibr%C3%BCcken#Teilung,n
+SW,Kurpfalz,Pfalz-Simmern,Pfalz-Simmern,Pfalz-Simmern,Sponheim,"49.8442° N, 7.7268° E",principality,1453,1685,,,,reformed,1559,,,,https://de.wikipedia.org/wiki/Pfalz-Simmern-Zweibr%C3%BCcken#Teilung,n
+SW,Kurpfalz,Pfalz-Zweibrücken,Pfalz-Zweibrücken,Pfalz-Zweibrücken,Veldenz,"49.8895° N, 7.0235° E",principality,1453,1801,,,,Roman-catholic,,1533,,,https://de.wikipedia.org/wiki/Pfalz-Zweibr%C3%BCcken,y
+SW,Kurpfalz,Pfalz-Zweibrücken,Pfalz-Zweibrücken,Pfalz-Zweibrücken,Veldenz,"49.8895° N, 7.0235° E",principality,1453,1801,,,,lutheran,1533,1588,,,https://de.wikipedia.org/wiki/Pfalz-Zweibr%C3%BCcken,y
+SW,Kurpfalz,Pfalz-Zweibrücken,Pfalz-Zweibrücken,Pfalz-Zweibrücken,Veldenz,"49.8895° N, 7.0235° E",principality,1453,1801,,,,reformed,1588,,,,https://de.wikipedia.org/wiki/Pfalz-Zweibr%C3%BCcken,y
+SW,Kurpfalz,Pfalz-Lautern,Pfalz-Lautern,Pfalz-Lautern,Kaiserslautern,"49.4401° N, 7.7491° E",principality,1559,1592,,,,reformed,,,,,https://de.wikipedia.org/wiki/Pfalz-Lautern,y
+SW,Kurpfalz,Oberpfalz,Oberpfalz,Oberpfalz,Neuburg an der Donau,"48.7303° N, 11.1888° E",duchy,1329,1777,,,,Roman-catholic,,1556,,,https://de.wikipedia.org/wiki/Geschichte_der_Oberpfalz,n
+SW,Kurpfalz,Oberpfalz,Oberpfalz,Oberpfalz,Neuburg an der Donau,"48.7303° N, 11.1888° E",duchy,1329,1777,,,,lutheran,1556,1583,,,https://de.wikipedia.org/wiki/Geschichte_der_Oberpfalz,n
+SW,Kurpfalz,Oberpfalz,Oberpfalz,Oberpfalz,Neuburg an der Donau,"48.7303° N, 11.1888° E",duchy,1329,1777,,,,calvinist,1583,,,,https://de.wikipedia.org/wiki/Geschichte_der_Oberpfalz,n
+SW,Kurtrier,Kurtrier,Kurtrier,Erzstift Trier,Trier,"49.7500° N, 6.6371° E",electorate,1198,1799,archbishopric,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Kurtrier,n
+SW,Kurtrier,Prüm (Reichsabtei),Prüm (Reichsabtei),Prüm (princely abbey),Prüm,"50.2082° N, 6.4197° E",principality,1222,1576,abbey,721,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Abtei_Pr%C3%BCm,y
+SW,Strasbourg,Strasbourg (Hochstift),Strasbourg (Hochstift),Strasbourg,Zabern,"48.7420° N, 7.3616° E",landgraviate,1359,1803,bishopric,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Stra%C3%9Fburg,y
+SW,Strasbourg,Strasbourg,Strasbourg,Strasbourg,Strasbourg,"48.5734° N, 7.7521° E",free city,1262,1681,,,,free,,1559,SL,1531,https://en.wikipedia.org/wiki/Strasbourg#History,n
+SW,Strasbourg,Strasbourg,Strasbourg,Strasbourg,Strasbourg,"48.5734° N, 7.7521° E",free city,1262,1681,,,,lutheran,1559,1583,SL,1531,https://en.wikipedia.org/wiki/Strasbourg#History,n
+SW,Strasbourg,Strasbourg,Strasbourg,Strasbourg,Strasbourg,"48.5734° N, 7.7521° E",free city,1262,1681,,,,Roman-catholic,1583,,SL,1531,https://en.wikipedia.org/wiki/Strasbourg#History,n
+SW,Lothringen,Lothringen,Lothringen,Lothringen,Nancy,"48.6921° N, 6.1844° E",duchy,1484,1766,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Lothringen,n
+SW,Lothringen,Metz (Hochstift),Metz (Hochstift),Metz,Vic-sur-Seille,"48.7823° N, 6.5299° E",principality,,1648,bishopric,,1648,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Metz,y
+SW,Lothringen,Metz,Metz,Metz,Metz,"49.1193° N, 6.1757° E",imperial city,1210,1552,,,,Roman-catholic,,1552,,,https://de.wikipedia.org/wiki/Metz#Metz_als_Freie_Reichsstadt,n
+SW,Lothringen,Metz,Metz,Metz,Metz,"49.1193° N, 6.1757° E",french city,1552,,,,,"lutheran, reformed, calvinist, free",1552,,,,https://de.wikipedia.org/wiki/Metz#Metz_als_Freie_Reichsstadt,n
+SW,Lothringen,Toul (Hochstift),Toul (Hochstift),Toul,Liverdun,"48.7502° N, 6.0628° E",principality,,1648,bishopric,,1648,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Bistum_Toul,n
+SW,Lothringen,Toul,Toul,Toul,Toul,"48.6783° N, 5.8902° E",imperial city,,1552,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Toul,n
+SW,Lothringen,Toul,Toul,Toul,Toul,"48.6783° N, 5.8902° E",french,1552,,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Toul,n
+SW,Lothringen,Verdun (Hochstift),Verdun (Hochstift),Verdun,Montmedy,"49.5195° N, 5.3666° E",principality,,1648,bishopric,,1648,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Bistum_Verdun,n
+SW,Lothringen,Verdun,Verdun,Verdun,Verdun,"49.1599° N, 5.3844° E",imperial city,,1552,,,,"Roman-catholic, free",,1552,,,https://de.wikipedia.org/wiki/Verdun#Geschichte,n
+SW,Lothringen,Verdun,Verdun,Verdun,Verdun,"49.1599° N, 5.3844° E",french,1552,,,,,"lutheran, reformed, calvinist, free",1552,,,,https://de.wikipedia.org/wiki/Verdun#Geschichte,n
+,,,Baden-Hachberg,Baden-Hachberg,Emmendingen,"48.1171° N, 7.8539° E",margraviate,1584,1590,,,,lutheran,1584,1590,,,https://de.wikipedia.org/wiki/Markgrafschaft_Baden-Hachberg,n
+,,,Baden Rötteln-Sausenberg,Baden Rötteln-Sausenberg,Rötteln,"47.6378° N, 7.6680° E",margraviate,1584,1590,,,,,,,,,,n
+,,,Baden Rötteln-Sausenberg,Baden Rötteln-Sausenberg,Rötteln,"47.6378° N, 7.6680° E",margraviate,1584,1590,,,,,,,,,,n
+SW,evangl Reichsstädte,Ulm,Ulm,Ulm,Ulm,"48.4011° N, 9.9876° E",Free imperial city,854,1810,,,,Roman-catholic,,1531,SL,1531,https://de.wikipedia.org/wiki/Ulm#Reichsstadt_in_der_fr%C3%BChen_Neuzeit_(1500_bis_1802),n
+SW,evangl Reichsstädte,Ulm,Ulm,Ulm,Ulm,"48.4011° N, 9.9876° E",Free imperial city,854,1810,,,,lutheran,1531,,SL,1531,https://de.wikipedia.org/wiki/Ulm#Reichsstadt_in_der_fr%C3%BChen_Neuzeit_(1500_bis_1802),n
+SW,evangl Reichsstädte,Speyer,Speyer,Speyer,Speyer,"49.3173° N, 8.4412° E",free city,1111,1792,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Speyer,n
+SW,evangl Reichsstädte,Speyer,Speyer,Speyer,Speyer,"49.3173° N, 8.4412° E",free city,1111,1792,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/Speyer,n
+SW,evangl Reichsstädte,Landau,Landau,Landau,Landau,"49.1989° N, 8.1186° E",imperial city,1291,1680,,,,Roman-catholic,,1525,,,"https://de.wikipedia.org/wiki/Landau_in_der_Pfalz, https://www.regionalgeschichte.net/pfalz/landau/einzelaspekte/landau-in-der-reformationszeit.html",n
+SW,evangl Reichsstädte,Landau,Landau,Landau,Landau,"49.1989° N, 8.1186° E",imperial city,1291,1680,,,,radical,1525,1579,,,"https://de.wikipedia.org/wiki/Landau_in_der_Pfalz, https://www.regionalgeschichte.net/pfalz/landau/einzelaspekte/landau-in-der-reformationszeit.html",n
+SW,evangl Reichsstädte,Landau,Landau,Landau,Landau,"49.1989° N, 8.1186° E",imperial city,1291,1680,,,,"lutheran, Roman-catholic",1579,,,,"https://de.wikipedia.org/wiki/Landau_in_der_Pfalz, https://www.regionalgeschichte.net/pfalz/landau/einzelaspekte/landau-in-der-reformationszeit.html",n
+SW,evangl Reichsstädte,Weissenburg,Weissenburg,Weissenburg,Weissenburg,"49.0369° N, 7.9445° E",imperial city,1306,1697,,,,Roman-catholic,,1522,,,https://de.wikipedia.org/wiki/Wissembourg#Geschichte,n
+SW,evangl Reichsstädte,Weissenburg,Weissenburg,Weissenburg,Weissenburg,"49.0369° N, 7.9445° E",imperial city,1306,1697,,,,"lutheran, reformed",1522,,,,https://de.wikipedia.org/wiki/Wissembourg#Geschichte,n
+SW,evangl Reichsstädte,Hagenau,Hagenau,Hagenau,Hagenau,"48.8133° N, 7.7913° E",imperial city,1164,1648,,,,Roman-catholic,,1540,,,https://de.wikipedia.org/wiki/Hagenau,n
+SW,evangl Reichsstädte,Hagenau,Hagenau,Hagenau,Hagenau,"48.8133° N, 7.7913° E",imperial city,1164,1648,,,,free,1540,,,,https://de.wikipedia.org/wiki/Hagenau,n
+SW,evangl Reichsstädte,Colmar,Colmar,Colmar,Colmar,"48.0794° N, 7.3585° E",imperial city,1226,1632,,,,Roman-catholic,,1575,,,https://de.wikipedia.org/wiki/Colmar,n
+SW,evangl Reichsstädte,Colmar,Colmar,Colmar,Colmar,"48.0794° N, 7.3585° E",imperial city,1226,1632,,,,lutheran,1575,,,,https://de.wikipedia.org/wiki/Colmar,n
+SW,evangl Reichsstädte,Münster Haut-Rhin,Münster Haut-Rhin,Munster Haut-Rhin,Munster,"48.0414° N, 7.1372° E",Free imperial city,,1648,,,,Roman-catholic,,1542,,,"https://de.wikipedia.org/wiki/Reichsstadt_M%C3%Bcnster_im_Gregoriental, https://www.vallee-munster.eu/de/entdecken/geschichte-und-kulturerbe/geschichte-der-ortschaften-im-munsteral/145-die-stadt-munster",y
+SW,evangl Reichsstädte,Münster Haut-Rhin,Münster Haut-Rhin,Munster Haut-Rhin,Munster,"48.0414° N, 7.1372° E",Free imperial city,,1648,,,,lutheran,1542,1575,,,"https://de.wikipedia.org/wiki/Reichsstadt_M%C3%Bcnster_im_Gregoriental, https://www.vallee-munster.eu/de/entdecken/geschichte-und-kulturerbe/geschichte-der-ortschaften-im-munsteral/145-die-stadt-munster",y
+SW,evangl Reichsstädte,Münster Haut-Rhin,Münster Haut-Rhin,Munster Haut-Rhin,Munster,"48.0414° N, 7.1372° E",Free imperial city,,1648,,,,free,1575,,,,"https://de.wikipedia.org/wiki/Reichsstadt_M%C3%Bcnster_im_Gregoriental, https://www.vallee-munster.eu/de/entdecken/geschichte-und-kulturerbe/geschichte-der-ortschaften-im-munsteral/145-die-stadt-munster",y
+SW,evangl Reichsstädte,Mulhouse,Mulhouse,Mühlhausen,Mühlhausen,"47.7508° N, 7.3359° E",Free imperial city,,1798,,,,Roman-catholic,,1529,,,https://de.wikipedia.org/wiki/M%C3%BClhausen,n
+SW,evangl Reichsstädte,Mulhouse,Mulhouse,Mühlhausen,Mühlhausen,"47.7508° N, 7.3359° E",Free imperial city,,1798,,,,reformed,1529,,,,https://de.wikipedia.org/wiki/M%C3%BClhausen,n
+SW,evangl Reichsstädte,Basel,Basel,Basel,Basel,"47.5596° N, 7.5886° E",free city,1392,1815,,,,Roman-catholic,,1529,,,https://de.wikipedia.org/wiki/Basel,n
+SW,evangl Reichsstädte,Basel,Basel,Basel,Basel,"47.5596° N, 7.5886° E",free city,1392,1815,,,,reformed,1529,,,,https://de.wikipedia.org/wiki/Basel,n
+SW,evangl Reichsstädte,Heilbronn,Heilbronn,Heilbronn,Heilbronn,"49.1427° N, 9.2109° E",imperial city,1371,1802,,,,Roman-catholic,,1528,SL,1538,https://de.wikipedia.org/wiki/Heilbronn,n
+SW,evangl Reichsstädte,Heilbronn,Heilbronn,Heilbronn,Heilbronn,"49.1427° N, 9.2109° E",imperial city,1371,1802,,,,lutheran,1528,,SL,1538,https://de.wikipedia.org/wiki/Heilbronn,n
+SW,evangl Reichsstädte,Esslingen,Esslingen,Esslingen,Esslingen,"48.7433° N, 9.3201° E",imperial city,1181,1803,,,,Roman-catholic,,1531,SL,1532,https://de.wikipedia.org/wiki/Esslingen_am_Neckar,n
+SW,evangl Reichsstädte,Esslingen,Esslingen,Esslingen,Esslingen,"48.7433° N, 9.3201° E",imperial city,1181,1803,,,,lutheran,1531,,SL,1532,https://de.wikipedia.org/wiki/Esslingen_am_Neckar,n
+SW,evangl Reichsstädte,Reutlingen,Reutlingen,Reutlingen,Reutlingen,"48.5069° N, 9.2038° E",imperial city,1240,1802,,,,Roman-catholic,,1519,SL,1531,https://de.wikipedia.org/wiki/Reutlingen,n
+SW,evangl Reichsstädte,Reutlingen,Reutlingen,Reutlingen,Reutlingen,"48.5069° N, 9.2038° E",imperial city,1240,1802,,,,lutheran,1519,,SL,1531,https://de.wikipedia.org/wiki/Reutlingen,n
+SW,evangl Reichsstädte,Rotheburg,Rotheburg,Rothenburg,Rothenburg,"49.3802° N, 10.1867° E",imperial city,1274,1803,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Rothenburg_ob_der_Tauber#Reichsstadt,n
+SW,evangl Reichsstädte,Rotheburg,Rotheburg,Rothenburg,Rothenburg,"49.3802° N, 10.1867° E",imperial city,1274,1803,,,,lutheran,1544,,,,https://de.wikipedia.org/wiki/Rothenburg_ob_der_Tauber#Reichsstadt,n
+SW,evangl Reichsstädte,Schwäbisch-Hall,Schwäbisch-Hall,Schwäbisch Hall,Schwäbisch Hall,"49.1125° N, 9.7373° E",imperial city,1280,1802,,,,Roman-catholic,,1523,SL,1538,https://de.wikipedia.org/wiki/Schw%C3%A4bisch_Hall,n
+SW,evangl Reichsstädte,Schwäbisch-Hall,Schwäbisch-Hall,Schwäbisch Hall,Schwäbisch Hall,"49.1125° N, 9.7373° E",imperial city,1280,1802,,,,lutheran,1523,,SL,1538,https://de.wikipedia.org/wiki/Schw%C3%A4bisch_Hall,n
+SW,evangl Reichsstädte,Dinkelsbühl,Dinkelsbühl,Dinkelsbühl,Dinkelsbühl,"49.0670° N, 10.3259° E",imperial city,1351,1802,,,,Roman-catholic,,1548,SL,1546,https://de.wikipedia.org/wiki/Reichsstadt_Dinkelsb%C3%BChl,y
+SW,evangl Reichsstädte,Dinkelsbühl,Dinkelsbühl,Dinkelsbühl,Dinkelsbühl,"49.0670° N, 10.3259° E",imperial city,1351,1802,,,,free,1548,,SL,1546,https://de.wikipedia.org/wiki/Reichsstadt_Dinkelsb%C3%BChl,y
+SW,evangl Reichsstädte,Donauwörth,Donauwörth,Donauwörth,Donauwörth,"48.7186° N, 10.7778° E",imperial city,1301,1606,,,,Roman-catholic,,1577,,,https://de.wikipedia.org/wiki/Donauw%C3%B6rth,n
+SW,evangl Reichsstädte,Donauwörth,Donauwörth,Donauwörth,Donauwörth,"48.7186° N, 10.7778° E",imperial city,1301,1606,,,,lutheran,1577,,,,https://de.wikipedia.org/wiki/Donauw%C3%B6rth,n
+SW,evangl Reichsstädte,Nördlingen,Nördlingen,Nördlingen,Nördlingen,"48.8508° N, 10.4895° E",imperial city,1215,1803,,,,Roman-catholic,,1555,,,https://de.wikipedia.org/wiki/N%C3%B6rdlingen,n
+SW,evangl Reichsstädte,Nördlingen,Nördlingen,Nördlingen,Nördlingen,"48.8508° N, 10.4895° E",imperial city,1215,1803,,,,lutheran,1555,,,,https://de.wikipedia.org/wiki/N%C3%B6rdlingen,n
+SW,evangl Reichsstädte,Bopfingen,Bopfingen,Bopfingen,Bopfingen,"48.8570° N, 10.3566° E",imperial city,1240,1810,,,,Roman-catholic,,1545,SL,1546,https://de.wikipedia.org/wiki/Bopfingen#Zeit_als_Reichsstadt,n
+SW,evangl Reichsstädte,Bopfingen,Bopfingen,Bopfingen,Bopfingen,"48.8570° N, 10.3566° E",imperial city,1240,1810,,,,lutheran,1545,,SL,1546,https://de.wikipedia.org/wiki/Bopfingen#Zeit_als_Reichsstadt,n
+SW,evangl Reichsstädte,Aalen,Aalen,Aalen,Aalen,"48.8367° N, 10.0971° E",imperial city,1360,1803,,,,Roman-catholic,,1575,,,https://de.wikipedia.org/wiki/Aalen#Zeit_als_Reichsstadt,n
+SW,evangl Reichsstädte,Aalen,Aalen,Aalen,Aalen,"48.8367° N, 10.0971° E",imperial city,1360,1803,,,,lutheran,1575,,,,https://de.wikipedia.org/wiki/Aalen#Zeit_als_Reichsstadt,n
+SW,evangl Reichsstädte,Giengen,Giengen,Giengen,Giengen,"48.6224° N, 10.2392° E",free city,1391,1803,,,,Roman-catholic,,1556,,,https://de.wikipedia.org/wiki/Giengen_an_der_Brenz,n
+SW,evangl Reichsstädte,Giengen,Giengen,Giengen,Giengen,"48.6224° N, 10.2392° E",free city,1391,1803,,,,lutheran,1556,,,,https://de.wikipedia.org/wiki/Giengen_an_der_Brenz,n
+SW,evangl Reichsstädte,Augsburg,Augsburg,Augsburg,Augsburg,"48.3705° N, 10.8978° E",imperial city,1316,1805,,,,Roman-catholic,,1530,SL,1536,https://de.wikipedia.org/wiki/Augsburg#Erhebung_Augsburgs_zur_Reichsstadt,n
+SW,evangl Reichsstädte,Augsburg,Augsburg,Augsburg,Augsburg,"48.3705° N, 10.8978° E",imperial city,1316,1805,,,,lutheran,1530,,SL,1536,https://de.wikipedia.org/wiki/Augsburg#Erhebung_Augsburgs_zur_Reichsstadt,n
+SW,evangl Reichsstädte,Memmingen,Memmingen,Memmingen,Memmingen,"47.9838° N, 10.1802° E",Free imperial city,1286,1806,,,,Roman-catholic,,1531,SL,1531,https://de.wikipedia.org/wiki/Memmingen,n
+SW,evangl Reichsstädte,Memmingen,Memmingen,Memmingen,Memmingen,"47.9838° N, 10.1802° E",Free imperial city,1286,1806,,,,lutheran,1531,,SL,1531,https://de.wikipedia.org/wiki/Memmingen,n
+SW,evangl Reichsstädte,Biberach,Biberach,Biberach,Biberach,"48.0951° N, 9.7902° E",Free imperial city,1281,1802,,,,Roman-catholic,,1531,SL,1531,https://de.wikipedia.org/wiki/Biberach_an_der_Ri%C3%9F#Reichsstadt,n
+SW,evangl Reichsstädte,Biberach,Biberach,Biberach,Biberach,"48.0951° N, 9.7902° E",Free imperial city,1281,1802,,,,reformed,1531,,SL,1531,https://de.wikipedia.org/wiki/Biberach_an_der_Ri%C3%9F#Reichsstadt,n
+SW,evangl Reichsstädte,Kaufbeuren,Kaufbeuren,Kaufbeuren,Kaufbeuren,"47.8830° N, 10.6260° E",imperial city,1286,1802,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Kaufbeuren,n
+SW,evangl Reichsstädte,Kaufbeuren,Kaufbeuren,Kaufbeuren,Kaufbeuren,"47.8830° N, 10.6260° E",imperial city,1286,1802,,,,lutheran,1579,,,,https://de.wikipedia.org/wiki/Kaufbeuren,n
+SW,evangl Reichsstädte,Kempten,Kempten,Kempten,Kempten,"47.7286° N, 10.3158° E",Free imperial city,1289,1802,,,,Roman-catholic,,1527,SL,1536,https://de.wikipedia.org/wiki/Kempten_(Allg%C3%A4u),n
+SW,evangl Reichsstädte,Kempten,Kempten,Kempten,Kempten,"47.7286° N, 10.3158° E",Free imperial city,1289,1802,,,,reformed,1527,1553,SL,1536,https://de.wikipedia.org/wiki/Kempten_(Allg%C3%A4u),n
+SW,evangl Reichsstädte,Kempten,Kempten,Kempten,Kempten,"47.7286° N, 10.3158° E",Free imperial city,1289,1802,,,,lutheran,1553,,SL,1536,https://de.wikipedia.org/wiki/Kempten_(Allg%C3%A4u),n
+SW,evangl Reichsstädte,Leutkirch,Leutkirch,Leutkirch,Leutkirch,"47.8267° N, 10.0214° E",imperial city,1293,1803,,,,Roman-catholic,,1546,,,https://de.wikipedia.org/wiki/Leutkirch_im_Allg%C3%A4u,n
+SW,evangl Reichsstädte,Leutkirch,Leutkirch,Leutkirch,Leutkirch,"47.8267° N, 10.0214° E",imperial city,1293,1803,,,,lutheran,1546,,,,https://de.wikipedia.org/wiki/Leutkirch_im_Allg%C3%A4u,n
+SW,evangl Reichsstädte,Isny,Isny,Isny,Isny,"47.6950° N, 10.0420° E",Free imperial city,1365,1802,,,,Roman-catholic,,1520?,SL,1531,https://de.wikipedia.org/wiki/Isny_im_Allg%C3%A4u#Reichsstadt,n
+SW,evangl Reichsstädte,Isny,Isny,Isny,Isny,"47.6950° N, 10.0420° E",Free imperial city,1365,1802,,,,lutheran,1520?,,SL,1531,https://de.wikipedia.org/wiki/Isny_im_Allg%C3%A4u#Reichsstadt,n
+SW,evangl Reichsstädte,Ravensburg,Ravensburg,Ravensburg,Ravensburg,"47.7783° N, 9.6121° E",imperial city,1276,1803,,,,Roman-catholic,,1544,SL,1546,https://de.wikipedia.org/wiki/Ravensburg,n
+SW,evangl Reichsstädte,Ravensburg,Ravensburg,Ravensburg,Ravensburg,"47.7783° N, 9.6121° E",imperial city,1276,1803,,,,lutheran,1544,1547,SL,1546,https://de.wikipedia.org/wiki/Ravensburg,n
+SW,evangl Reichsstädte,Ravensburg,Ravensburg,Ravensburg,Ravensburg,"47.7783° N, 9.6121° E",imperial city,1276,1803,,,,Roman-catholic,1547,,SL,1546,https://de.wikipedia.org/wiki/Ravensburg,n
+SW,evangl Reichsstädte,Lindau,Lindau,Lindau,Lindau,"47.5798° N, 9.6789° E",imperial city,1274,1803,,,,Roman-catholic,,1528,SL,1531,https://de.wikipedia.org/wiki/Lindau_(Bodensee),n
+SW,evangl Reichsstädte,Lindau,Lindau,Lindau,Lindau,"47.5798° N, 9.6789° E",imperial city,1274,1803,,,,reformed,1528,1577,SL,1531,https://de.wikipedia.org/wiki/Lindau_(Bodensee),n
+SW,evangl Reichsstädte,Lindau,Lindau,Lindau,Lindau,"47.5798° N, 9.6789° E",imperial city,1274,1803,,,,lutheran,1577,,SL,1531,https://de.wikipedia.org/wiki/Lindau_(Bodensee),n
+SW,evangl Reichsstädte,Konstanz,Konstanz,Konstanz,Konstanz,"47.6779° N, 9.1732° E",free imperial city,1213,1548,,,,Roman-catholic,,1527,SL,1531,https://de.wikipedia.org/wiki/Konstanz#Reichsstadt_(1192%E2%80%931548),n
+SW,evangl Reichsstädte,Konstanz,Konstanz,Konstanz,Konstanz,"47.6779° N, 9.1732° E",free imperial city,1213,1548,,,,lutheran,1527,1548,SL,1531,https://de.wikipedia.org/wiki/Konstanz#Reichsstadt_(1192%E2%80%931548),n
+SW,evangl Reichsstädte,Konstanz,Konstanz,Konstanz,Konstanz,"47.6779° N, 9.1732° E",zu Vorderösterreich,1548,1806,,,,Roman-catholic,1548,,SL,1531,https://de.wikipedia.org/wiki/Konstanz#Reichsstadt_(1192%E2%80%931548),n
+SW,kath Reichsstädte,Rosheim,Rosheim,Rosheim,Rosheim,"48.4967° N, 7.4705° E",imperial city,1303,,,,,Roman-catholic,,1525?,,,https://de.wikipedia.org/wiki/Rosheim,n
+SW,kath Reichsstädte,Rosheim,Rosheim,Rosheim,Rosheim,"48.4967° N, 7.4705° E",imperial city,1303,,,,,lutheran,1525?,,,,https://de.wikipedia.org/wiki/Rosheim,n
+SW,kath Reichsstädte,Oberehnheim,Oberehnheim,Oberehnheim,Oberehnheim,"48.4623° N, 7.4817° E",imperial city,1240,1648,,,,Roman-catholic,,1520?,,,https://de.wikipedia.org/wiki/Obernai,n
+SW,kath Reichsstädte,Oberehnheim,Oberehnheim,Oberehnheim,Oberehnheim,"48.4623° N, 7.4817° E",imperial city,1240,1648,,,,lutheran?,1520?,1587,,,https://de.wikipedia.org/wiki/Obernai,n
+SW,kath Reichsstädte,Oberehnheim,Oberehnheim,Oberehnheim,Oberehnheim,"48.4623° N, 7.4817° E",imperial city,1240,1648,,,,Roman-catholic,1587,,,,https://de.wikipedia.org/wiki/Obernai,n
+SW,kath Reichsstädte,Schlettstadt,Schlettstadt,Schlettstadt,Schlettstadt,"48.2594° N, 7.4542° E",Free imperial city,1216,,,,,Roman-catholic,,1525?,,,https://de.wikipedia.org/wiki/S%C3%A9lestat,y
+SW,kath Reichsstädte,Schlettstadt,Schlettstadt,Schlettstadt,Schlettstadt,"48.2594° N, 7.4542° E",Free imperial city,1216,,,,,lutheran,1525?,,,,https://de.wikipedia.org/wiki/S%C3%A9lestat,y
+SW,kath Reichsstädte,Kaysersberg,Kaysersberg,Kaysersberg,Kaysersberg,"48.1389° N, 7.2640° E",Free imperial city,1353,1648,,,,Roman-catholic,,1525?,,,https://de.wikipedia.org/wiki/Kaysersberg,n
+SW,kath Reichsstädte,Kaysersberg,Kaysersberg,Kaysersberg,Kaysersberg,"48.1389° N, 7.2640° E",Free imperial city,1353,1648,,,,lutheran?,1525?,,,,https://de.wikipedia.org/wiki/Kaysersberg,n
+SW,kath Reichsstädte,Türkheim,Türkheim,Türkheim,Türkheim,"48.0616° N, 10.6428° E",imperial city,1312,,,,,Roman-catholic,,1525?,,,https://de.wikipedia.org/wiki/Turckheim#Geschichte,n
+SW,kath Reichsstädte,Türkheim,Türkheim,Türkheim,Türkheim,"48.0616° N, 10.6428° E",imperial city,1312,,,,,lutheran?,1525?,,,,https://de.wikipedia.org/wiki/Turckheim#Geschichte,n
+SW,kath Reichsstädte,Offenburg,Offenburg,Offenburg,Offenburg,"48.4735° N, 7.9498° E",Free imperial city,1240,1701,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Offenburg,n
+SW,kath Reichsstädte,Offenburg,Offenburg,Offenburg,Offenburg,"48.4735° N, 7.9498° E",Free imperial city,1240,1701,,,,lutheran,1525,1530,,,https://de.wikipedia.org/wiki/Offenburg,n
+SW,kath Reichsstädte,Offenburg,Offenburg,Offenburg,Offenburg,"48.4735° N, 7.9498° E",Free imperial city,1240,1701,,,,Roman-catholic,1530,,,,https://de.wikipedia.org/wiki/Offenburg,n
+SW,kath Reichsstädte,Gengenbach,Gengenbach,Gengenbach,Gengenbach,"48.4098° N, 8.0096° E",imperial city,1360,1803,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Gengenbach,n
+SW,kath Reichsstädte,Gengenbach,Gengenbach,Gengenbach,Gengenbach,"48.4098° N, 8.0096° E",imperial city,1360,1803,,,,lutheran,1525,1547,,,https://de.wikipedia.org/wiki/Gengenbach,n
+SW,kath Reichsstädte,Gengenbach,Gengenbach,Gengenbach,Gengenbach,"48.4098° N, 8.0096° E",imperial city,1360,1803,,,,Roman-catholic,1547,,,,https://de.wikipedia.org/wiki/Gengenbach,n
+SW,kath Reichsstädte,Zell am Hamersbach,Zell am Hamersbach,Zell am Harmersbach,Zell am Harmersbach,"48.3472° N, 8.0657° E",imperial city,,1803,,,,Roman-catholic,,1548,,,"https://de.wikipedia.org/wiki/Zell_am_Harmersbach#Zell, https://www.eki-zell.de/html/content/unsere_geschichte.html, https://de.wikipedia.org/wiki/Wilhelm_von_F%C3%BCrstenberg_(S%C3%B6ldnerf%C3%BChrer)#Das_Ende",n
+SW,kath Reichsstädte,Zell am Hamersbach,Zell am Hamersbach,Zell am Harmersbach,Zell am Harmersbach,"48.3472° N, 8.0657° E",imperial city,,1803,,,,lutheran?,1548,1549,,,"https://de.wikipedia.org/wiki/Zell_am_Harmersbach#Zell, https://www.eki-zell.de/html/content/unsere_geschichte.html, https://de.wikipedia.org/wiki/Wilhelm_von_F%C3%BCrstenberg_(S%C3%B6ldnerf%C3%BChrer)#Das_Ende\",n
+SW,kath Reichsstädte,Zell am Hamersbach,Zell am Hamersbach,Zell am Harmersbach,Zell am Harmersbach,"48.3472° N, 8.0657° E",imperial city,,1803,,,,Roman-catholic,1549,,,,"https://de.wikipedia.org/wiki/Zell_am_Harmersbach#Zell, https://www.eki-zell.de/html/content/unsere_geschichte.html, https://de.wikipedia.org/wiki/Wilhelm_von_F%C3%BCrstenberg_(S%C3%B6ldnerf%C3%BChrer)#Das_Ende",n
+SW,kath Reichsstädte,Rottweil,Rottweil,Rottweil,Rottweil,"48.1653° N, 8.6285° E","imperial city, zugewandter Ort",1230,1802,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Rottweil,n
+SW,kath Reichsstädte,Weil,Weil,Weil der Stadt,Weil der Stadt,"48.7536° N, 8.8727° E",imperial city,1275,1803,,,,Roman-catholic,,1522,,,https://de.wikipedia.org/wiki/Weil_der_Stadt#Mittelalter,n
+SW,kath Reichsstädte,Weil,Weil,Weil der Stadt,Weil der Stadt,"48.7536° N, 8.8727° E",imperial city,1275,1803,,,,lutheran,1522,1628,,,https://de.wikipedia.org/wiki/Weil_der_Stadt#Mittelalter,n
+SW,kath Reichsstädte,Weil,Weil,Weil der Stadt,Weil der Stadt,"48.7536° N, 8.8727° E",imperial city,1275,1803,,,,Roman-catholic,1628,,,,https://de.wikipedia.org/wiki/Weil_der_Stadt#Mittelalter,n
+SW,kath Reichsstädte,Schwäbisch Gmünd,Schwäbisch Gmünd,Schwäbisch Gmünd,Schwäbisch Gmünd,"48.7994° N, 9.8046° E",imperial city,,1802,,,,Roman-catholic,,1524,,,https://de.wikipedia.org/wiki/Schw%C3%A4bisch_Gm%C3%BCnd#Geschichte_der_Reichsstadt,n
+SW,kath Reichsstädte,Schwäbisch Gmünd,Schwäbisch Gmünd,Schwäbisch Gmünd,Schwäbisch Gmünd,"48.7994° N, 9.8046° E",imperial city,,1802,,,,"lutheran, Roman-catholic",1524,,,,https://de.wikipedia.org/wiki/Schw%C3%A4bisch_Gm%C3%BCnd#Geschichte_der_Reichsstadt,n
+SW,kath Reichsstädte,Buchau,Buchau,Buchau,Buchau,"48.0619° N, 9.6079° E",free city,1320,1803,,,,Roman-catholic,,,,,"https://de.wikipedia.org/wiki/Bad_Buchau, https://en.wikipedia.org/wiki/Buchau_Abbey",n
+SW,kath Reichsstädte,Pfullendorf,Pfullendorf,Pfullendorf,Pfullendorf,"47.9252° N, 9.2487° E",imperial city,1282,1803,,,,Roman-catholic,,,,,"https://de.wikipedia.org/wiki/Pfullendorf, https://en.wikipedia.org/wiki/Pfullendorf",n
+SW,kath Reichsstädte,Wangen,Wangen,Wangen,Wangen,"47.1864° N, 8.8975° E",Free imperial city,1286,1803,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Wangen_im_Allg%C3%A4u#Reichsstadt_Wangen_in_der_fr%C3%BChen_Neuzeit,n
+SW,kath Reichsstädte,Buchhorn,Buchhorn,Buchhorn,Buchhorn,"49.1550° N, 9.4986° E",imperial city,1275,1802,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Buchhorn,y
+SW,kath Reichsstädte,Überlingen,Überlingen,Überlingen,Überlingen,"47.7662° N, 9.1703° E",imperial city,,1803,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/%C3%9Cberlingen#Freie_Reichsstadt,n
+,,,Oberelsass,Oberelsass,Selz,"48.8919° N, 8.1068° E",landgraviate,1274,1648,,,,Roman-catholic,1274,,,,https://de.wikipedia.org/wiki/Liste_der_Landv%C3%B6gte_im_Elsass,n
+SW,Vorderösterreich,Sundgau,Sundgau,Sundgau,Altkirch,"47.6204° N, 7.2430° E",county,,1648,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Sundgau,n
+SW,Vorderösterreich,Breisgau,Breisgau,Breisgau,Freiburg,"47.9990° N, 7.8421° E",landgraviate,1318,,,,,,,,,,https://de.wikipedia.org/wiki/Landgrafschaft_Breisgau,n
+SW,Vorderösterreich,Breisgau,Breisgau,Breisgau,Freiburg,"47.9990° N, 7.8421° E",landgraviate,1318,,,,,,,,,,https://de.wikipedia.org/wiki/Landgrafschaft_Breisgau,n
+SW,Vorderösterreich,Hohenberg,Hohenberg,Hohenberg,Oberhohenberg,"48.1639° N, 8.7606° E",county,1170,1486,,,,Roman-catholic,,,,,"https://de.wikipedia.org/wiki/Hohenberg_(schw%C3%A4bisches_Adelsgeschlecht), https://de.wikipedia.org/wiki/Schw%C3%A4bische_Hohenzollern",n
+SW,Vorderösterreich,Nellenburg,Nellenburg,Nellenburg,Radolfzell,"47.7452° N, 8.9669° E",landgraviate,1465,1805,,,,,,,,,https://de.wikipedia.org/wiki/Landgrafschaft_Nellenburg,n
+SW,Vorderösterreich,Nellenburg,Nellenburg,Nellenburg,Radolfzell,"47.7452° N, 8.9669° E",landgraviate,1465,1805,,,,,,,,,https://de.wikipedia.org/wiki/Landgrafschaft_Nellenburg,n
+SW,Vorderösterreich,Schwaben,Schwaben,Schwaben,Weingarten,"47.8096° N, 9.6380° E",bailiwick,1541,1805,,,,,,,,,https://de.wikipedia.org/wiki/Landvogtei_Schwaben,n
+SW,Vorderösterreich,Schwaben,Schwaben,Schwaben,Weingarten,"47.8096° N, 9.6380° E",bailiwick,1541,1805,,,,,,,,,https://de.wikipedia.org/wiki/Landvogtei_Schwaben,n
+SW,Vorderösterreich,Burgau,Burgau,Burgau,Günzburg,"48.4528° N, 10.2775° E",margraviate,1301,1618,,,,,,,,,https://de.wikipedia.org/wiki/Markgrafschaft_Burgau,n
+SW,Vorderösterreich,Burgau,Burgau,Burgau,Günzburg,"48.4528° N, 10.2775° E",margraviate,1301,1618,,,,,,,,,https://de.wikipedia.org/wiki/Markgrafschaft_Burgau,n
+SW,Vorderösterreich,Vorarlberg,Vorarlberg,Vorarlberg,Feldkirch,"47.2413° N, 9.6019° E",bailiwick,1451,1753,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Geschichte_Vorarlbergs#Mittelalter,n
+SO,Nürnberg,Nürnberg,Nürnberg,Nürnberg,Nürnberg,"49.4521° N, 11.0767° E",imperial city,1219,1806,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Reichsstadt_N%C3%BCrnberg,y
+SO,Nürnberg,Nürnberg,Nürnberg,Nürnberg,Nürnberg,"49.4521° N, 11.0767° E",imperial city,1219,1806,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/Reichsstadt_N%C3%BCrnberg,y
+SO,Ansbach,Ansbach,Ansbach,Ansbach,Ansbach,"49.3004° N, 10.5719° E",margraviate,1473,1791,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Ansbach,y
+SO,Ansbach,Ansbach,Ansbach,Ansbach,Ansbach,"49.3004° N, 10.5719° E",margraviate,1473,1791,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Ansbach,y
+SO,Ansbach,Kulmbach,Kulmbach,Kulmbach,Kulmbach,"50.1039° N, 11.4448° E",margraviate,1473,1791,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Bayreuth,y
+SO,Ansbach,Kulmbach,Kulmbach,Kulmbach,Kulmbach,"50.1039° N, 11.4448° E",margraviate,1473,1791,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Bayreuth,y
+SO,Pfalz-Neuburg,Pfalz-Neuburg,Pfalz-Neuburg,Pfalz-Neuburg,Neuburg an der Donau,"48.7303° N, 11.1888° E",duchy,1505,1808,,,,Roman-catholic,,1542,,,https://de.wikipedia.org/wiki/Pfalz-Neuburg,y
+SO,Pfalz-Neuburg,Pfalz-Neuburg,Pfalz-Neuburg,Pfalz-Neuburg,Neuburg an der Donau,"48.7303° N, 11.1888° E",duchy,1505,1808,,,,lutheran,1542,1616,,,https://de.wikipedia.org/wiki/Pfalz-Neuburg,y
+SO,Pfalz-Neuburg,Pfalz-Neuburg,Pfalz-Neuburg,Pfalz-Neuburg,Neuburg an der Donau,"48.7303° N, 11.1888° E",duchy,1505,1808,,,,Roman-catholic,1616,,,,https://de.wikipedia.org/wiki/Pfalz-Neuburg,y
+SO,Bayern,Bayern,Bayern,Bayern,München,"48.1351° N, 11.5820° E",duchy,1506,1623,,,,Roman-catholic,,,CL,,https://de.wikipedia.org/wiki/Geschichte_Bayerns#Das_bairische_Stammesherzogtum,n
+SO,Salzburg,Salzburg (Erzstift),Salzburg (Erzstift),Salzburg,Salzburg,"47.8095° N, 13.0550° E",principality,1328,1803,archbishopric,1328,1803,Roman-catholic,,,CL,,https://de.wikipedia.org/wiki/F%C3%BCrsterzbistum_Salzburg,y
+SO,Tirol,Tirol,Tirol,Tirol,Meran,"46.6713° N, 11.1525° E",county,1490,1662,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Gef%C3%BCrstete_Grafschaft_Tirol,n
+SO,Tirol,Brixen (Hochstift),Brixen (Hochstift),Brixen,Brixen,"46.7177° N, 11.6572° E",,,,bishopric,1027,1803,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Di%C3%B6zese_Bozen-Brixen,n
+SO,Tirol,Trient (Hochstift),Trient (Hochstift),Trient,Trient,"46.0557° N, 6.9960° E",,,,bishopric,1027,1803,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Erzbistum_Trient#Hochstift_Trient,n
+SO,Innerösterreich,Steiermark,Steiermark,Steiermark,Graz,"47.0707° N, 15.4395° E",duchy,1180,1804,,,,Roman-catholic,,1530,,,https://de.wikipedia.org/wiki/Geschichte_der_Steiermark#Herzogtum_Steiermark_im_Mittelalter_(1180%E2%80%931500),n
+SO,Innerösterreich,Steiermark,Steiermark,Steiermark,Graz,"47.0707° N, 15.4395° E",duchy,1180,1804,,,,"Roman-catholic, lutheran, reformed, calvinist",1530,1575,,,https://de.wikipedia.org/wiki/Geschichte_der_Steiermark#Herzogtum_Steiermark_im_Mittelalter_(1180%E2%80%931500),n
+SO,Innerösterreich,Steiermark,Steiermark,Steiermark,Graz,"47.0707° N, 15.4395° E",duchy,1180,1804,,,,free,1575,,,,https://de.wikipedia.org/wiki/Geschichte_der_Steiermark#Herzogtum_Steiermark_im_Mittelalter_(1180%E2%80%931500),n
+SO,Innerösterreich,Kärnten,Kärnten,Kärnten,Klagenfurt,"46.6365° N, 14.3122° E",duchy,976,1918,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Geschichte_K%C3%A4rntens#Herzogtum_K%C3%A4rnten,n
+SO,Innerösterreich,Kärnten,Kärnten,Kärnten,Klagenfurt,"46.6365° N, 14.3122° E",duchy,976,1918,,,,"lutheran, reformed, calvinist, free",1525,1578,,,https://de.wikipedia.org/wiki/Geschichte_K%C3%A4rntens#Herzogtum_K%C3%A4rnten,n
+SO,Innerösterreich,Kärnten,Kärnten,Kärnten,Klagenfurt,"46.6365° N, 14.3122° E",duchy,976,1918,,,,free,1578,,,,https://de.wikipedia.org/wiki/Geschichte_K%C3%A4rntens#Herzogtum_K%C3%A4rnten,n
+SO,Innerösterreich,Krain,Krain,Krain,Ljubljana,"46.0569° N, 14.5058° E",duchy,1364,1918,,,,Roman-catholic,,1530?,,,https://de.wikipedia.org/wiki/Krain#Herzogtum_Krain,n
+SO,Innerösterreich,Krain,Krain,Krain,Ljubljana,"46.0569° N, 14.5058° E",duchy,1364,1918,,,,free?,1530?,,,,https://de.wikipedia.org/wiki/Krain#Herzogtum_Krain,n
+SO,Innerösterreich,Görz,Görz,Görz,Lienz,"46.8277° N, 12.7627° E",county,1365,1918,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Grafschaft_G%C3%B6rz,n
+SO,Innerösterreich,Triest,Triest,Triest,Triest,"45.6495° N, 13.7768° E",county,1382,1809,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Reichsunmittelbare_Stadt_Triest_und_ihr_Gebiet,n
+SO,Innerösterreich,Istrien,Istrien,Istrien,Parenzo,"45.2272° N, 13.5947° E",margraviate,1364,1918,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Markgrafschaft_Istrien,n
+SO,Oberösterreich,Österreich,Österreich,Austria,Wien,"48.2082° N, 16.3738° E",archduchy,,,,,,Roman-catholic,,1520,,,https://de.wikipedia.org/wiki/%C3%96sterreich#Frankenreich_und_Heiliges_R%C3%B6misches_Reich_700%E2%80%931806,n
+SO,Oberösterreich,Österreich,Österreich,Austria,Wien,"48.2082° N, 16.3738° E",archduchy,,,,,,lutheran,1520,,,,https://de.wikipedia.org/wiki/%C3%96sterreich#Frankenreich_und_Heiliges_R%C3%B6misches_Reich_700%E2%80%931806,n
+SO,Böhmen,Böhmen,Böhmen,Böhmen,Prag,"50.0755° N, 14.4378° E",kingdom,1198,1806,,,,Roman-catholic,,1520,,,https://de.wikipedia.org/wiki/K%C3%B6nigreich_B%C3%B6hmen,n
+SO,Böhmen,Böhmen,Böhmen,Böhmen,Prag,"50.0755° N, 14.4378° E",kingdom,1198,1806,,,,lutheran,1520,1575,,,https://de.wikipedia.org/wiki/K%C3%B6nigreich_B%C3%B6hmen,n
+SO,Böhmen,Böhmen,Böhmen,Böhmen,Prag,"50.0755° N, 14.4378° E",kingdom,1198,1806,,,,"lutheran, calvinist",1575,,,,https://de.wikipedia.org/wiki/K%C3%B6nigreich_B%C3%B6hmen,n
+MD,ernestinisches Sachsen,ernestinisches Sachsen (bis 1547),ernestinisches Sachsen (bis 1547),Sachsen,Weimar,"50.9795° N, 11.3235° E",electorate,1485,1547,,,,Roman-catholic,,1525,SL,1531,https://de.wikipedia.org/wiki/Kurf%C3%BCrstentum_Sachsen,y
+MD,ernestinisches Sachsen,ernestinisches Sachsen (bis 1547),ernestinisches Sachsen (bis 1547),Sachsen,Weimar,"50.9795° N, 11.3235° E",electorate,1485,1547,,,,lutheran,1525,,SL,1531,https://de.wikipedia.org/wiki/Kurf%C3%BCrstentum_Sachsen,y
+MD,ernestinisches Sachsen,ernestinisches Sachsen (nach 1547),ernestinisches Sachsen (nach 1547),Sachsen,Weimar,"50.9795° N, 11.3235° E",duchy,1547,1806,,,,lutheran,,,SL,1531,https://de.wikipedia.org/wiki/Kurf%C3%BCrstentum_Sachsen,y
+NO,albertnisches sachsen,albertinisches Sachsen (bis 1547),albertinisches Sachsen (bis 1547),Sachsen,Dresden,"51.0504° N, 13.7373° E",duchy,1485,1547,,,,Roman-catholic,,1539,CL,,https://de.wikipedia.org/wiki/Geschichte_Sachsens#Von_der_Leipziger_Teilung_zum_Schmalkaldischen_Krieg_(1485_bis_1547),y
+NO,albertnisches sachsen,albertinisches Sachsen (bis 1547),albertinisches Sachsen (bis 1547),Sachsen,Dresden,"51.0504° N, 13.7373° E",duchy,1485,1547,,,,lutheran,1539,1547,CL,,https://de.wikipedia.org/wiki/Geschichte_Sachsens#Von_der_Leipziger_Teilung_zum_Schmalkaldischen_Krieg_(1485_bis_1547),y
+NO,albertnisches sachsen,albertinisches Sachsen (nach 1547),albertinisches Sachsen (nach 1547),Sachsen,Dresden,"51.0504° N, 13.7373° E",electorate,1547,1572,,,,lutheran,1547,1567,CL,,https://de.wikipedia.org/wiki/Herzogtum_Sachsen_(1547%E2%80%931572),y
+NO,albertnisches sachsen,albertinisches Sachsen (nach 1567),albertinisches Sachsen (nach 1567),Sachsen,Dresden,"51.0504° N, 13.7373° E",electorate,1547,1572,,,,lutheran,1567,,CL,,https://de.wikipedia.org/wiki/Herzogtum_Sachsen_(1547%E2%80%931572),y
+MD,ernestinisches Sachsen,Sachsen-Coburg-Eisenach (nach 1572),Sachsen-Coburg-Eisenach (nach 1572),Sachsen-Coburg-Eisenach,Eisenach,"50.9796° N, 10.3147° E",duchy,1572,1596,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Sachsen-Coburg-Eisenach,n
+MD,ernestinisches Sachsen,Sachsen-Weimar (nach 1572),Sachsen-Weimar (nach 1572),Sachsen-Weimar,Weimar,"50.9795° N, 11.3235° E",duchy,1572,1603,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Sachsen-Weimar,y
+MD,ernestinisches Sachsen,Sachsen-Weimar (nach 1603),Sachsen-Weimar (nach 1603),Sachsen-Weimar,Weimar,"50.9795° N, 11.3235° E",duchy,1603,1640,,,,lutheran,,1636,,,https://de.wikipedia.org/wiki/Sachsen-Weimar,y
+MD,ernestinisches Sachsen,Sachsen-Weimar (nach 1603),Sachsen-Weimar (nach 1603),Sachsen-Weimar,Weimar,"50.9795° N, 11.3235° E",duchy,1603,1640,,,,free,1636,,,,https://de.wikipedia.org/wiki/Sachsen-Weimar,y
+MD,ernestinisches Sachsen,Sachsen-Weimar (nach 1640),Sachsen-Weimar (nach 1640),Sachsen-Weimar,Weimar,"50.9795° N, 11.3235° E",duchy,1640,1662,,,,free,,,,,https://de.wikipedia.org/wiki/Sachsen-Weimar,y
+,,,Sachsen-Coburg,Sachsen-Coburg,Coburg,"50.2612° N, 10.9627° E",duchy,1596,1640,,,,Roman-catholic,1596,1614,,,https://de.wikipedia.org/wiki/Sachsen-Coburg,y
+,,,Sachsen-Coburg,Sachsen-Coburg,Coburg,"50.2612° N, 10.9627° E",duchy,1596,1640,,,,lutheran,1614,1640,,,https://de.wikipedia.org/wiki/Sachsen-Coburg,y
+,,,Sachsen-Eisenach,Sachsen-Eisenach,Eisenach,"50.9796° N, 10.3147° E",duchy,1596,1640,,,,Roman-catholic,1596,1626,,,https://de.wikipedia.org/wiki/Sachsen-Eisenach,n
+,,,Sachsen-Eisenach,Sachsen-Eisenach,Eisenach,"50.9796° N, 10.3147° E",duchy,1596,1640,,,,lutheran,1626,1640,,,https://de.wikipedia.org/wiki/Sachsen-Eisenach,n
+,,,Sachsen-Altenburg,Sachsen-Altenburg,Altenburg,"50.9931° N, 12.4367° E",duchy,1603,1640,,,,lutheran,,1636,,,https://de.wikipedia.org/wiki/Herzogtum_Sachsen-Altenburg,n
+,,,Sachsen-Altenburg,Sachsen-Altenburg,Altenburg,"50.9931° N, 12.4367° E",duchy,1603,1640,,,,free,1636,1640,,,https://de.wikipedia.org/wiki/Herzogtum_Sachsen-Altenburg,n
+,,,Sachsen-Altenburg mit Coburg,Sachsen-Altenburg mit Coburg,Altenburg,"50.9931° N, 12.4367° E",duchy,1640,1669,,,,free,,,,,https://de.wikipedia.org/wiki/Sachsen-Weimar,y
+,,,Sachsen-Gotha,Sachsen-Gotha,Gotha,"50.9469° N, 10.7093° E",duchy,1640,1675,,,,free,,,,,https://de.wikipedia.org/wiki/Sachsen-Gotha,n
+,,,Sachsen-Eisenach,Sachsen-Eisenach,Eisenach,"50.9796° N, 10.3147° E",duchy,1640,1644,,,,free,,,,,https://de.wikipedia.org/wiki/Sachsen-Eisenach,n
+MD,albertnisches sachsen,Merseburg (Hochstift),Merseburg (Hochstift),Merseburg,Merseburg,"51.3563° N, 11.9917° E",,,,bishopric,1004,1565,Roman-catholic,,1561,,,https://de.wikipedia.org/wiki/Bistum_Merseburg,n
+MD,albertnisches sachsen,Merseburg (Hochstift),Merseburg (Hochstift),Merseburg,Merseburg,"51.3563° N, 11.9917° E",,,,bishopric,1004,1565,lutheran,1561,,,,https://de.wikipedia.org/wiki/Bistum_Merseburg,n
+MD,albertnisches sachsen,Naumburg (Hochstift),Naumburg (Hochstift),Naumburg,Naumburg,"51.1520° N, 11.8142° E",,,,bishopric,1029,1615,Roman-catholic,,1562,,,https://de.wikipedia.org/wiki/Bistum_Naumburg-Zeitz,n
+MD,albertnisches sachsen,Naumburg (Hochstift),Naumburg (Hochstift),Naumburg,Naumburg,"51.1520° N, 11.8142° E",,,,bishopric,1029,1615,lutheran,1562,,,,https://de.wikipedia.org/wiki/Bistum_Naumburg-Zeitz,n
+MD,albertnisches sachsen,Meissen (Hochstift),Meissen (Hochstift),Meissen,Meissen,"51.1618° N, 13.4977° E",principality,968,1818,bishopric,968,1818,Roman-catholic,,1581,,,https://de.wikipedia.org/wiki/Hochstift_Mei%C3%9Fen,n
+MD,albertnisches sachsen,Meissen (Hochstift),Meissen (Hochstift),Meissen,Meissen,"51.1618° N, 13.4977° E",principality,968,1818,bishopric,968,1818,lutheran,1581,,,,https://de.wikipedia.org/wiki/Hochstift_Mei%C3%9Fen,n
+MD,ernestinisches Sachsen,Mansfeld,Mansfeld,Mansfeld,Mansfeld,"51.5981° N, 11.4588° E",county,1050,1580,,,,Roman-catholic,,1525,SL,1531,https://de.wikipedia.org/wiki/Mansfeld_(Adelsgeschlecht),n
+MD,ernestinisches Sachsen,Mansfeld,Mansfeld,Mansfeld,Mansfeld,"51.5981° N, 11.4588° E",county,1050,1580,,,,lutheran,1525,,SL,1531,https://de.wikipedia.org/wiki/Mansfeld_(Adelsgeschlecht),n
+,,,Reuss,Reuss,Greiz,"50.6586° N, 12.2077° E
+",county,1329,1673,,,,Roman-catholic,,1536,,,https://de.wikipedia.org/wiki/Haus_Reu%C3%9F,n
+,,,Reuss,Reuss,Greiz,"50.6586° N, 12.2077° E
+",county,1329,1673,,,,lutheran,1536,,,,https://de.wikipedia.org/wiki/Haus_Reu%C3%9F,n
+MD,ernestinisches Sachsen,Henneberg,Henneberg,Henneberg,Henneberg,"50.4921° N, 10.3558° E",county,1096,1660,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Grafschaft_Henneberg,y
+MD,ernestinisches Sachsen,Henneberg,Henneberg,Henneberg,Henneberg,"50.4921° N, 10.3558° E",county,1096,1660,,,,lutheran,1544,,,,https://de.wikipedia.org/wiki/Grafschaft_Henneberg,y
+MD,ernestinisches Sachsen,Schwarzburg (nach 1567),Schwarzburg (nach 1567),Schwarzburg,Leutenberg,"50.5642° N, 11.4542° E",county,1071,1599,,,,Roman-catholic,,1533,SL,1538,https://de.wikipedia.org/wiki/Schwarzburg_(Adelsgeschlecht),n
+MD,ernestinisches Sachsen,Schwarzburg (nach 1567),Schwarzburg (nach 1567),Schwarzburg,Leutenberg,"50.5642° N, 11.4542° E",county,1071,1599,,,,lutheran,1533,,SL,1538,https://de.wikipedia.org/wiki/Schwarzburg_(Adelsgeschlecht),n
+,,,Schwarzburg-Rudolstadt,Schwarzburg-Rudolstadt,Rudolstadt,"50.7183° N, 11.3337° E",county,1599,1710,,,,lutheran,,,,,https://de.wikipedia.org/wiki/Schwarzburg-Rudolstadt,n
+,,,Schwarzburg-Sondershausen,Schwarzburg-Sondershausen,Sondershausen,"51.3692° N, 10.8711° E",county,1599,1697,,,,lutheran,,,,,https://de.wikipedia.org/wiki/Schwarzburg-Sondershausen,n
+MD,ernestinisches Sachsen,Nordhausen,Nordhausen,Nordhausen,Nordhausen,"51.4991° N, 10.7916° E",imperial city,1220,1802,,,,Roman-catholic,,1524,SL,1532,https://de.wikipedia.org/wiki/Nordhausen#Reichsstadt,n
+MD,ernestinisches Sachsen,Nordhausen,Nordhausen,Nordhausen,Nordhausen,"51.4991° N, 10.7916° E",imperial city,1220,1802,,,,lutheran,1524,,SL,1532,https://de.wikipedia.org/wiki/Nordhausen#Reichsstadt,n
+MD,ernestinisches Sachsen,Mühlhausen,Mühlhausen,Mühlhausen,Mühlhausen,"51.2099° N, 10.4571° E",imperial city,1251,1802,,,,Roman-catholic,,1542,,,https://de.wikipedia.org/wiki/Freie_Reichsstadt_M%C3%BChlhausen,y
+MD,ernestinisches Sachsen,Mühlhausen,Mühlhausen,Mühlhausen,Mühlhausen,"51.2099° N, 10.4571° E",imperial city,1251,1802,,,,lutheran,1542,,,,https://de.wikipedia.org/wiki/Freie_Reichsstadt_M%C3%BChlhausen,y
+MD,Frankfurt,Friedberg (Reichsburg) ,Friedberg (Reichsburg) ,Friedberg,Friedberg castle,"50.34222222° N, 8.75277778° E",imperial castle,1481,1806,,,,Roman-catholic,,1541,,,"https://de.wikipedia.org/wiki/Burggrafschaft_Friedberg, https://de.wikivoyage.org/wiki/Friedberg_(Hessen)",n
+MD,Frankfurt,Friedberg (Reichsburg),Friedberg (Reichsburg),Friedberg,Friedberg castle,"50.34222222° N, 8.75277778° E",imperial castle,1481,1806,,,,lutheran,1541,,,,"https://de.wikipedia.org/wiki/Burggrafschaft_Friedberg, https://de.wikivoyage.org/wiki/Friedberg_(Hessen)",n
+MD,Hessen,Hessen-Darmstadt,Hessen-Darmstadt,Hessen-Darmstadt,Darmstadt,"49.8728° N, 8.6512° E",landgraviate,1567,1806,,,,Roman-catholic,,1568?,,,https://de.wikipedia.org/wiki/Landgrafschaft_Hessen-Darmstadt,y
+MD,Hessen,Hessen-Darmstadt,Hessen-Darmstadt,Hessen-Darmstadt,Darmstadt,"49.8728° N, 8.6512° E",landgraviate,1567,1806,,,,lutheran,1568?,,,,https://de.wikipedia.org/wiki/Landgrafschaft_Hessen-Darmstadt,y
+MD,Hessen,Hessen-Marburg,Hessen-Marburg,Hessen-Marburg,Marburg,"50.8022° N, 8.7668° E",landgraviate,1567,1604,,,,Roman-catholic,,1568?,,,https://de.wikipedia.org/wiki/Hessen-Marburg,n
+MD,Hessen,Hessen-Marburg,Hessen-Marburg,Hessen-Marburg,Marburg,"50.8022° N, 8.7668° E",landgraviate,1567,1604,,,,lutheran,1568?,,,,https://de.wikipedia.org/wiki/Hessen-Marburg,n
+MD,Frankfurt,Wetzlar,Wetzlar,Wetzlar,Wetzlar,"50.5590° N, 8.5082° E",imperial city,1180,1803,,,,Roman-catholic,,1540,,,"https://de.wikipedia.org/wiki/Wetzlar#Sp%C3%A4tmittelalter,_Reichsstadt,_Reichskammergericht",n
+MD,Frankfurt,Wetzlar,Wetzlar,Wetzlar,Wetzlar,"50.5590° N, 8.5082° E",imperial city,1180,1803,,,,"Roman-catholic, lutheran",1540,1586,,,"https://de.wikipedia.org/wiki/Wetzlar#Sp%C3%A4tmittelalter,_Reichsstadt,_Reichskammergericht",n
+MD,Frankfurt,Wetzlar,Wetzlar,Wetzlar,Wetzlar,"50.5590° N, 8.5082° E",imperial city,1180,1803,,,,"Roman-catholic, lutheran, reformed",1586,,,,"https://de.wikipedia.org/wiki/Wetzlar#Sp%C3%A4tmittelalter,_Reichsstadt,_Reichskammergericht",n
+MD,Frankfurt,Friedberg,Friedberg,Friedberg,Friedberg,"50.3249° N, 8.7409° E",imperial city,1252,1802,,,,Roman-catholic,,1541,,,https://de.wikipedia.org/wiki/Friedberg_(Hessen)#Geschichte,n
+MD,Frankfurt,Friedberg,Friedberg,Friedberg,Friedberg,"50.3249° N, 8.7409° E",imperial city,1252,1802,,,,lutheran,1541,,,,https://de.wikipedia.org/wiki/Friedberg_(Hessen)#Geschichte,n
+MD,Frankfurt,Frankfurt,Frankfurt,Frankfurt a.M.,Frankfurt a.M.,"50.1109° N, 8.6821° E",imperial city,1245,1866,,,,Roman-catholic,,1530,SL,1536,https://de.wikipedia.org/wiki/Geschichte_von_Frankfurt_am_Main,n
+MD,Frankfurt,Frankfurt,Frankfurt,Frankfurt a.M.,Frankfurt a.M.,"50.1109° N, 8.6821° E",imperial city,1245,1866,,,,lutheran,1530,,SL,1536,https://de.wikipedia.org/wiki/Geschichte_von_Frankfurt_am_Main,n
+MD,Kurmainz,Kurmainz,Kurmainz,Mainz,Mainz,"49.9929° N, 8.2473° E",electorate,,1803,archbishopric,,1803,Roman-catholic,,,CL,,https://de.wikipedia.org/wiki/Kurmainz,n
+MD,Würzburg,Würzburg (Hochstift),Würzburg (Hochstift),Würzburg,Würzburg,"49.7913° N, 9.9534° E",,,,bishopric,741,1802,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_W%C3%BCrzburg,y
+MD,Wertheim,Wertheim,Wertheim,Wertheim,Wertheim,"49.7586° N, 9.5129° E",county,1132,1556,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Grafen_von_Wertheim,n
+MD,Wertheim,Wertheim,Wertheim,Wertheim,Wertheim,"49.7586° N, 9.5129° E",county,1132,1556,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/Grafen_von_Wertheim,n
+MD,evangl Reichsstädte,Wimpfen,Wimpfen,Wimpfen,Bad Wimpfen,"49.2285° N, 9.1571° E",imperial city,1300,1803,,,,Roman-catholic,,1546,,,https://de.wikipedia.org/wiki/Bad_Wimpfen#Reichsstadt_Wimpfen,n
+MD,evangl Reichsstädte,Wimpfen,Wimpfen,Wimpfen,Bad Wimpfen,"49.2285° N, 9.1571° E",imperial city,1300,1803,,,,lutheran,1546,,,,https://de.wikipedia.org/wiki/Bad_Wimpfen#Reichsstadt_Wimpfen,n
+MD,Würzburg,Windsheim,Windsheim,Windsheim,Windsheim,"49.5861° N, 10.4656° E",imperial city,1248,1802,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Bad_Windsheim#Reichsstadt_Windsheim,y
+MD,Würzburg,Windsheim,Windsheim,Windsheim,Windsheim,"49.5861° N, 10.4656° E",imperial city,1248,1802,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/Bad_Windsheim#Reichsstadt_Windsheim,y
+MD,Fulda,Fulda,Fulda,Fulda,Fulda,"50.5558° N, 9.6808° E",principality,1170,1803,bishopric,1170,1803,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Fulda,y
+MD,Bamberg,Bamberg (Hochstift),Bamberg (Hochstift),Bamberg,Bamberg,"49.8988° N, 10.9028° E",principality,,1802,bishopric,,1802,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Bamberg,y
+MD,Eichstätt,Eichstätt (Hochstift),Eichstätt (Hochstift),Eichstätt,Eichstätt,"48.8913° N, 11.1900° E",principality,1365,1802,bishopric,1365,1802,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Eichst%C3%A4tt,y
+MD,Reichsritter,,Schwaben,Schwaben,,,imperial knights,1541,1805,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Schw%C3%A4bischer_Ritterkreis,n
+MD,Reichsritter,,Schwaben,Schwaben,,,imperial knights,1541,1805,,,,"lutheran, unclear",,,,,https://de.wikipedia.org/wiki/Schw%C3%A4bischer_Ritterkreis,n
+MD,Reichsritter,,Franken,Franken,,,imperial knights,1500,1806,,,,Roman-catholic,,1520?,,,https://de.wikipedia.org/wiki/Fr%C3%A4nkischer_Ritterkreis,n
+MD,Reichsritter,,Franken,Franken,,,imperial knights,1500,1806,,,,"lutheran, unclear",1520?,,,,https://de.wikipedia.org/wiki/Fr%C3%A4nkischer_Ritterkreis,n
+MD,Reichsritter,,Am Rheinstrohm,Am Rheinstrohm,,,imperial knights,,1801,,,,Roman-catholic,,1520?,,,https://de.wikipedia.org/wiki/Rheinischer_Ritterkreis,n
+MD,Reichsritter,,Am Rheinstrohm,Am Rheinstrohm,,,imperial knights,,1801,,,,"lutheran, unclear",1520?,,,,https://de.wikipedia.org/wiki/Rheinischer_Ritterkreis,n
+MD,Hessen,Hessen,Hessen,Hessen,Kassel,"51.3127° N, 9.4797° E",landgraviate,1247,1567,,,,Roman-catholic,,1527,SL,1531,https://de.wikipedia.org/wiki/Landgrafschaft_Hessen,n
+MD,Hessen,Hessen,Hessen,Hessen,Kassel,"51.3127° N, 9.4797° E",landgraviate,1247,1567,,,,lutheran,1527,,SL,1531,https://de.wikipedia.org/wiki/Landgrafschaft_Hessen,n
+MD,Hessen,Hessen-Kassel,Hessen-Kassel,Hessen-Kassel,Kassel,"51.3127° N, 9.4797° E",landgraviate,1567,1803,,,,reformed,1567,,,,https://de.wikipedia.org/wiki/Landgrafschaft_Hessen-Kassel,y
+MD,Hessen,Hessen-Rheinfels,Hessen-Rheinfels,Hessen-Rheinfels,Rheinfels,"50.1537° N, 7.7052° E",landgraviate,1567,1583,,,,lutheran?,1567,,,,https://de.wikipedia.org/wiki/Hessen-Rheinfels,n
+NO,Kurbrandenburg,Kurbrandenburg,Kurbrandenburg,Brandenburg,Stadtschloss Berlin,"52.5172° N, 13.4016° E",margraviate,1157,1806,,,,Roman-catholic,,1539,SL,1538,https://de.wikipedia.org/wiki/Mark_Brandenburg,y
+NO,Kurbrandenburg,Kurbrandenburg,Kurbrandenburg,Brandenburg,Stadtschloss Berlin,"52.5172° N, 13.4016° E",margraviate,1157,1806,,,,lutheran,1539,,SL,1538,https://de.wikipedia.org/wiki/Mark_Brandenburg,y
+NO,Kurbrandenburg,Kurbrandenburg,Kurbrandenburg,Brandenburg,Stadtschloss Berlin,"52.5172° N, 13.4016° E",margraviate,1157,1806,,,,"calvinist, lutheran",1613,,SL,1538,https://de.wikipedia.org/wiki/Mark_Brandenburg,y
+NO,Magdeburg,Magdeburg (Erzstift),Magdeburg (Erzstift),Magdeburg,Magdeburg,"52.1205° N, 11.6276° E",principality,968,1680,archbishopric,1180,1680,Roman-catholic,,1566,CL,,https://de.wikipedia.org/wiki/Erzstift_Magdeburg,y
+NO,Magdeburg,Magdeburg (Erzstift),Magdeburg (Erzstift),Magdeburg,Magdeburg,"52.1205° N, 11.6276° E",principality,968,1680,archbishopric,1180,1680,lutheran,1566,,CL,,https://de.wikipedia.org/wiki/Erzstift_Magdeburg,y
+NO,Anhalt,Anhalt-Zerbst,Anhalt-Zerbst1,Anhalt-Zerbst,Zerbst,"51.9669° N, 12.0846° E",principality,1396,1570,,,,Roman-catholic,,1537,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Zerbst,n
+NO,Anhalt,Anhalt-Zerbst,Anhalt-Zerbst1,Anhalt-Zerbst,Zerbst,"51.9669° N, 12.0846° E",principality,1396,1570,,,,lutheran,1537,,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Zerbst,n
+NO,Anhalt,Anhalt-Zerbst,Anhalt-Zerbst2,Anhalt-Zerbst,Zerbst,"51.9669° N, 12.0846° E",principality,1606,1806,,,,lutheran,,,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Zerbst,n
+NO,Anhalt,Anhalt-Köthen,Anhalt-Köthen1,Anhalt-Köthen,Köthen,"51.7506° N, 11.9802° E",principality,1252,1509,,,,Roman-catholic,,,SL,1531,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-K%C3%B6then,y
+NO,Anhalt,Anhalt-Köthen,Anhalt-Köthen2,Anhalt-Köthen,Köthen,"51.7506° N, 11.9802° E",principality,1606,1806,,,,lutheran,,,SL,1531,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-K%C3%B6then,y
+NO,Anhalt,Anhalt-Dessau,Anhalt-Dessau1,Anhalt-Dessau,Dessau,"51.8308° N, 12.2423° E",principality,1396,1447,,,,Roman-catholic,,,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Dessau,y
+NO,Anhalt,Anhalt-Dessau,Anhalt-Dessau2,Anhalt-Dessau,Dessau,"51.8308° N, 12.2423° E",principality,1447,1544,,,,Roman-catholic,,1534,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Dessau,y
+NO,Anhalt,Anhalt-Dessau,Anhalt-Dessau2,Anhalt-Dessau,Dessau,"51.8308° N, 12.2423° E",principality,1447,1544,,,,"lutheran, reformed, calvinist",1534,,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Dessau,y
+NO,Anhalt,Anhalt-Dessau,Anhalt-Dessau3,Anhalt-Dessau,Dessau,"51.8308° N, 12.2423° E",principality,1544,1570,,,,"lutheran, reformed, calvinist",,,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Dessau,y
+NO,Anhalt,Anhalt-Dessau,Anhalt-Dessau4,Anhalt-Dessau,Dessau,"51.8308° N, 12.2423° E",principality,1603,1806,,,,reformed,1603,,SL,1536,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Dessau,y
+NO,Anhalt,Anhalt-Plötzkau,Anhalt-Plötzkau1,Anhalt-Plötzkau,Plötzkau,"51.7454° N, 11.6829° E",principality,1544,1553,,,,lutheran?,,,,,https://de.wikipedia.org/wiki/Anhalt-Pl%C3%B6tzkau,n
+NO,Anhalt,Anhalt-Plötzkau,Anhalt-Plötzkau2,Anhalt-Plötzkau,Plötzkau,"51.7454° N, 11.6829° E",principality,1611,1665,,,,reformed,,,,,https://de.wikipedia.org/wiki/Anhalt-Pl%C3%B6tzkau,n
+NO,Anhalt,Anhalt-Bernburg,Anhalt-Bernburg1,Anhalt-Bernburg,Bernburg,"51.7834° N, 11.7537° E",principality,1252,1570,,,,Roman-catholic,,1521,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Bernburg,n
+NO,Anhalt,Anhalt-Bernburg,Anhalt-Bernburg1,Anhalt-Bernburg,Bernburg,"51.7834° N, 11.7537° E",principality,1252,1570,,,,lutheran,1521,,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Bernburg,n
+NO,Anhalt,Anhalt-Bernburg,Anhalt-Bernburg2,Anhalt-Bernburg,Bernburg,"51.7834° N, 11.7537° E",principality,1603,1863,,,,reformed,1603,,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Anhalt-Bernburg,n
+NO,Anhalt,Anhalt,Anhalt,Anhalt,Aschersleben,"51.7591° N, 11.4619° E",principality,1570,1603,,,,reformed,,,,,https://de.wikipedia.org/wiki/Anhalt#F%C3%BCrstentum_Anhalt,n
+NO,Schlesien,Breslau,Breslau,Breslau,Breslau,"51.1079° N, 17.0385° E",duchy,1335,1772,,,,Roman-catholic,,1522,,,https://de.wikipedia.org/wiki/Herzogtum_Breslau,n
+NO,Schlesien,Breslau,Breslau,Breslau,Breslau,"51.1079° N, 17.0385° E",duchy,1335,1772,,,,lutheran,1522,,,,https://de.wikipedia.org/wiki/Herzogtum_Breslau,n
+NO,Schlesien,Glogau,Glogau,Glogau,Glogau,"51.6636° N, 16.0847° E",duchy,1490,1742,,,,,,,,,https://de.wikipedia.org/wiki/Herzogtum_Glogau,n
+NO,Schlesien,Glogau,Glogau,Glogau,Glogau,"51.6636° N, 16.0847° E",duchy,1490,1742,,,,,,,,,https://de.wikipedia.org/wiki/Herzogtum_Glogau,n
+NO,Schlesien,Schweidnitz-Jauer,Schweidnitz-Jauer,Schweidnitz-Jauer,Jauer,"51.2307° N, 14.1816° E",duchy,1346,1742,,,,,,,,,https://de.wikipedia.org/wiki/Herzogtum_Schweidnitz-Jauer,n
+NO,Schlesien,Schweidnitz-Jauer,Schweidnitz-Jauer,Schweidnitz-Jauer,Jauer,"51.2307° N, 14.1816° E",duchy,1346,1742,,,,,,,,,https://de.wikipedia.org/wiki/Herzogtum_Schweidnitz-Jauer,n
+NO,Schlesien,Troppau,Troppau,Troppau,Troppau,"49.9407° N, 17.8948° E",duchy,1377,1742,,,,Roman-catholic,,1525?,,,https://de.wikipedia.org/wiki/Herzogtum_Troppau,n
+NO,Schlesien,Troppau,Troppau,Troppau,Troppau,"49.9407° N, 17.8948° E",duchy,1377,1742,,,,lutheran,1525?,,,,https://de.wikipedia.org/wiki/Herzogtum_Troppau,n
+NO,Schlesien,Oppeln-Ratibor,Oppeln-Ratibor,Oppeln-Ratibor,Oppeln,"50.6683° N, 17.9231° E",duchy,1281,1742,,,,Roman-catholic,,1537,,,https://de.wikipedia.org/wiki/Herzogtum_Oppeln,n
+NO,Schlesien,Oppeln-Ratibor,Oppeln-Ratibor,Oppeln-Ratibor,Oppeln,"50.6683° N, 17.9231° E",duchy,1281,1742,,,,lutheran,1537,,,,https://de.wikipedia.org/wiki/Herzogtum_Oppeln,n
+NO,Schlesien,Glatz,Glatz,Glatz,Glatz,"50.4346° N, 16.6614° E",county,1348,1742,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Grafschaft_Glatz,n
+NO,Schlesien,Glatz,Glatz,Glatz,Glatz,"50.4346° N, 16.6614° E",county,1348,1742,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/Grafschaft_Glatz,n
+NO,Schlesien,Liegnitz-Brieg,Liegnitz-Brieg,Liegnitz-Brieg,Liegnitz,"51.2070° N, 16.1553° E",duchy,1419,1523,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Liegnitz,n
+NO,Schlesien,Liegnitz-Brieg-Wohlau,Liegnitz-Brieg-Wohlau,Liegnitz-Brieg-Wohlau,Liegnitz,"51.2070° N, 16.1553° E",duchy,1523,1675,,,,Roman-catholic,,1540,,,https://de.wikipedia.org/wiki/Herzogtum_Liegnitz,n
+NO,Schlesien,Liegnitz-Brieg-Wohlau,Liegnitz-Brieg-Wohlau,Liegnitz-Brieg-Wohlau,Liegnitz,"51.2070° N, 16.1553° E",duchy,1523,1675,,,,lutheran,1540,,,,https://de.wikipedia.org/wiki/Herzogtum_Liegnitz,n
+NO,Schlesien,Teschen,Teschen,Teschen,Teschen,"49.7498° N, 18.6355° E",duchy,1290,1618,,,,Roman-catholic,,1545,,,https://de.wikipedia.org/wiki/Herzogtum_Teschen,n
+NO,Schlesien,Teschen,Teschen,Teschen,Teschen,"49.7498° N, 18.6355° E",duchy,1290,1618,,,,lutheran,1545,,,,https://de.wikipedia.org/wiki/Herzogtum_Teschen,n
+NO,Schlesien,Oels-Bernstadt,Oels-Bernstadt,Oels,Oels,"51.2134° N, 17.3899° E",duchy,1312,1772,,,,Roman-catholic,,1564?,,,https://de.wikipedia.org/wiki/Herzogtum_Oels,n
+NO,Schlesien,Oels-Bernstadt,Oels-Bernstadt,Oels,Oels,"51.2134° N, 17.3899° E",duchy,1312,1772,,,,lutheran,1564?,,,,https://de.wikipedia.org/wiki/Herzogtum_Oels,n
+NO,Schlesien,Münsterberg,Münsterberg,Münsterberg,Münsterberg,"50.5983° N, 17.0389° E",duchy,1321,1772,,,,Roman-catholic,,1536,,,https://de.wikipedia.org/wiki/Herzogtum_M%C3%BCnsterberg,n
+NO,Schlesien,Münsterberg,Münsterberg,Münsterberg,Münsterberg,"50.5983° N, 17.0389° E",duchy,1321,1772,,,,lutheran,1536,,,,https://de.wikipedia.org/wiki/Herzogtum_M%C3%BCnsterberg,n
+NO,Schlesien,Sagan,Sagan,Sagan,Sagan,"51.6178° N, 15.3248° E",duchy,1274,1772,,,,Roman-catholic,,1539,,,https://de.wikipedia.org/wiki/Herzogtum_Sagan,n
+NO,Schlesien,Sagan,Sagan,Sagan,Sagan,"51.6178° N, 15.3248° E",duchy,1274,1772,,,,lutheran,1539,,,,https://de.wikipedia.org/wiki/Herzogtum_Sagan,n
+NO,Schlesien,Crossen,Crossen,Crossen,Crossen,"52.0550° N, 15.0972° E",duchy,1482,1815,,,,Roman-catholic,,1564?,,,https://de.wikipedia.org/wiki/Herzogtum_Crossen,n
+NO,Schlesien,Crossen,Crossen,Crossen,Crossen,"52.0550° N, 15.0972° E",duchy,1482,1815,,,,lutheran,1564?,,,,https://de.wikipedia.org/wiki/Herzogtum_Crossen,n
+NO,Schlesien,Jägerndorf,Jägerndorf,Jägerndorf,Jägerndorf,"50.0906° N, 17.7031° E",duchy,1377,1623,,,,Roman-catholic,,1522,,,https://de.wikipedia.org/wiki/Herzogtum_J%C3%A4gerndorf,n
+NO,Schlesien,Jägerndorf,Jägerndorf,Jägerndorf,Jägerndorf,"50.0906° N, 17.7031° E",duchy,1377,1623,,,,lutheran,1522,,,,https://de.wikipedia.org/wiki/Herzogtum_J%C3%A4gerndorf,n
+NO,Schlesien,Neisse-Grottkau,Neisse-Grottkau,Neisse,Neisse,"50.4823° N, 17.3296° E",principality,1290,1772,,,,Roman-catholic,,1522,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Neisse,n
+NO,Schlesien,Neisse-Grottkau,Neisse-Grottkau,Neisse,Neisse,"50.4823° N, 17.3296° E",principality,1290,1772,,,,lutheran,1522,1622,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Neisse,n
+NO,Schlesien,Neisse-Grottkau,Neisse-Grottkau,Neisse,Neisse,"50.4823° N, 17.3296° E",principality,1290,1772,,,,Roman-catholic,1622,,,,https://de.wikipedia.org/wiki/F%C3%BCrstentum_Neisse,n
+NO,Schlesien,Beuthen,Beuthen,Beuthen,Beuthen,"50.3484° N, 18.9157° E",duchy,1459,1697,,,,Roman-catholic,,1564?,,,https://de.wikipedia.org/wiki/Herzogtum_Beuthen,n
+NO,Schlesien,Beuthen,Beuthen,Beuthen,Beuthen,"50.3484° N, 18.9157° E",duchy,1459,1697,,,,lutheran,1564?,,,,https://de.wikipedia.org/wiki/Herzogtum_Beuthen,n
+NO,Schlesien,Oderberg,Oderberg,Oderberg,Oderberg,"49.9043° N, 18.3570° E",lordship,1523,,,,,Roman-catholic,,1564?,,,,n
+NO,Schlesien,Oderberg,Oderberg,Oderberg,Oderberg,"49.9043° N, 18.3570° E",lordship,1523,,,,,lutheran,1564?,,,,,n
+NO,Schleswig-Holstein,Schleswig,Schleswig,Schleswig,Schleswig,"54.5239° N, 9.5632° E",duchy,1200,1864,,,,Roman-catholic,,1536,,,https://de.wikipedia.org/wiki/Herzogtum_Schleswig,n
+NO,Schleswig-Holstein,Schleswig,Schleswig,Schleswig,Schleswig,"54.5239° N, 9.5632° E",duchy,1200,1864,,,,lutheran,1536,,,,https://de.wikipedia.org/wiki/Herzogtum_Schleswig,n
+NO,Schleswig-Holstein,Holstein,Holstein,Holstein,Kiel,"54.3233° N, 10.1228° E",duchy,1474,1806,,,,Roman-catholic,,1536,,,https://de.wikipedia.org/wiki/Herzogtum_Holstein,y
+NO,Schleswig-Holstein,Holstein,Holstein,Holstein,Kiel,"54.3233° N, 10.1228° E",duchy,1474,1806,,,,lutheran,1536,,,,https://de.wikipedia.org/wiki/Herzogtum_Holstein,y
+,,,Dänemark,Dänemark,Kopenhagen,"55.6761° N, 12.5683° E",kingdom,950,,,,,Roman-catholic,,1526,,,https://de.wikipedia.org/wiki/D%C3%A4nemark#Geschichte,n
+,,,Dänemark,Dänemark,Kopenhagen,"55.6761° N, 12.5683° E",kingdom,950,,,,,lutheran,1526,,,,https://de.wikipedia.org/wiki/D%C3%A4nemark#Geschichte,n
+NO,Mecklenburg,Mecklenburg,Mecklenburg,Mecklenburg,Güstrow,"53.8032° N, 12.1895° E",duchy,1348,1815,,,,Roman-catholic,,1526,,,https://de.wikipedia.org/wiki/Herzog_zu_Mecklenburg,n
+NO,Mecklenburg,Mecklenburg,Mecklenburg,Mecklenburg,Güstrow,"53.8032° N, 12.1895° E",duchy,1348,1815,,,,"Roman-catholic, lutheran",1526,1549,,,https://de.wikipedia.org/wiki/Herzog_zu_Mecklenburg,n
+NO,Mecklenburg,Mecklenburg,Mecklenburg,Mecklenburg,Güstrow,"53.8032° N, 12.1895° E",duchy,1348,1815,,,,lutheran,1549,,,,https://de.wikipedia.org/wiki/Herzog_zu_Mecklenburg,n
+NO,Mecklenburg,Ratzeburg (Hochstift),Ratzeburg (Hochstift),Ratzeburg,Ratzeburg,"53.6990° N, 10.7711° E",principality,1230,1648,bishopric,1060,1648,Roman-catholic,,1648,,,https://de.wikipedia.org/wiki/Bistum_Ratzeburg,n
+NO,Mecklenburg,Ratzeburg (Hochstift),Ratzeburg (Hochstift),Ratzeburg,Ratzeburg,"53.6990° N, 10.7711° E",principality,1230,1648,bishopric,1060,1648,secular,1648,,,,https://de.wikipedia.org/wiki/Bistum_Ratzeburg,n
+NO,Mecklenburg,Schwerin (Hochstift),Schwerin (Hochstift),Schwerin,Schwerin,"53.6355° N, 11.4012° E",,,,bishopric,1062,1648,Roman-catholic,,1533,,,https://de.wikipedia.org/wiki/Bistum_Schwerin,n
+NO,Mecklenburg,Schwerin (Hochstift),Schwerin (Hochstift),Schwerin,Schwerin,"53.6355° N, 11.4012° E",,,,bishopric,1062,1648,lutheran,1533,,,,https://de.wikipedia.org/wiki/Bistum_Schwerin,n
+NO,Pommern,Pommern-Wolgast,Pommern-Wolgast,Pommern-Wolgast,Wolgast,"54.0496° N, 13.7666° E",duchy,1523,1625,,,,Roman-catholic,,1534,SL,1536,https://de.wikipedia.org/wiki/Herzogtum_Pommern#Pommern-Stettin_und_Pommern-Wolgast,n
+NO,Pommern,Pommern-Wolgast,Pommern-Wolgast,Pommern-Wolgast,Wolgast,"54.0496° N, 13.7666° E",duchy,1523,1625,,,,lutheran,1534,,SL,1536,https://de.wikipedia.org/wiki/Herzogtum_Pommern#Pommern-Stettin_und_Pommern-Wolgast,n
+NO,Pommern,Pommern-Stettin,Pommern-Stettin,Pommern-Stettin,Stettin,"53.4285° N, 14.5528° E",duchy,1523,1625,,,,Roman-catholic,,1534,SL,1536,https://de.wikipedia.org/wiki/Herzogtum_Pommern#Pommern-Stettin_und_Pommern-Wolgast,n
+NO,Pommern,Pommern-Stettin,Pommern-Stettin,Pommern-Stettin,Stettin,"53.4285° N, 14.5528° E",duchy,1523,1625,,,,lutheran,1534,,SL,1536,https://de.wikipedia.org/wiki/Herzogtum_Pommern#Pommern-Stettin_und_Pommern-Wolgast,n
+NO,Pommern,Pommern,Pommern,Pommern,Stettin,"53.4285° N, 14.5528° E",duchy,1478,1523,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Pommern#Pommern-Stettin_und_Pommern-Wolgast,n
+NO,Pommern,Cammin (Hochstift),Cammin (Hochstift),Cammin,Cammin,"53.9908° N, 12.3593° E",principality,1217,1648,bishopric,1140,1648,Roman-catholic,,1560,,,https://de.wikipedia.org/wiki/Bistum_Cammin,n
+NO,Pommern,Cammin (Hochstift),Cammin (Hochstift),Cammin,Cammin,"53.9908° N, 12.3593° E",principality,1217,1648,bishopric,1140,1648,lutheran,1560,,,,https://de.wikipedia.org/wiki/Bistum_Cammin,n
+NO,Preussen,Preussen,Preussen,Prussia,Köningsberg,"54.7104° N, 20.4522° E",duchy,1515,1618,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Herzogtum_Preu%C3%9Fen,n
+NO,Preussen,Preussen,Preussen,Prussia,Köningsberg,"54.7104° N, 20.4522° E",duchy,1515,1618,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/Herzogtum_Preu%C3%9Fen,n
+NO,königlich Preussen,königlich Preussen,königlich Preussen,Royal-Prussia,Danzig,"54.3520° N, 18.6466° E",titular duchy,1466,1772,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Preu%C3%9Fen_K%C3%B6niglichen_Anteils,n
+NO,königlich Preussen,königlich Preussen,königlich Preussen,Royal-Prussia,Danizg,"54.3520° N, 18.6466° E",titular duchy,1466,1772,,,,"lutheran, reformed, Roman-catholic",1525,,,,https://de.wikipedia.org/wiki/Preu%C3%9Fen_K%C3%B6niglichen_Anteils,n
+NO,königlich Preussen,Ermland (Hochstift),Ermland (Hochstift),Ermland,Heilsberg,"54.1249° N, 20.5860° E",principality,1243,1772,bishopric,1243,1772,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Ermland,n
+NO,Preussen,Pomesanien (Hochstift),Pomesanien (Hochstift),Pomesanien,Riesenburg,"53.7559° N, 19.2045° E",,,,bishopric,1243,1587,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Pomesanien#Bistum_Pomesanien,n
+NO,Preussen,Pomesanien (Hochstift),Pomesanien (Hochstift),Pomesanien,Riesenburg,"53.7559° N, 19.2045° E",,,,bishopric,1243,1587,lutheran,1525,,,,https://de.wikipedia.org/wiki/Pomesanien#Bistum_Pomesanien,n
+NO,Preussen,Samland (Hochstift),Samland (Hochstift),Samland,Fischhausen,"60.3584° N, 28.6307° E",principality,1243,1525,bishopric,1243,1525,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/F%C3%BCrstbistum_Samland,n
+NO,Preussen,Samland (Hochstift),Samland (Hochstift),Samland,Fischhausen,"60.3584° N, 28.6307° E",principality,1243,1525,bishopric,1243,1525,lutheran,1525,,,,https://de.wikipedia.org/wiki/F%C3%BCrstbistum_Samland,n
+NO,Schleswig-Holstein,Lübeck (Hochstift),Lübeck (Hochstift),Lübeck,Eutin,"54.1330° N, 10.6095° E
+",principality,1180,1804,bishopric,1180,1804,Roman-catholic,,1545,,,https://de.wikipedia.org/wiki/Hochstift_L%C3%BCbeck,y
+NO,Schleswig-Holstein,Lübeck (Hochstift),Lübeck (Hochstift),Lübeck,Eutin,"54.1330° N, 10.6095° E
+",principality,1180,1804,bishopric,1180,1804,lutheran,1545,,,,https://de.wikipedia.org/wiki/Hochstift_L%C3%BCbeck,y
+NO,Schleswig-Holstein,Lübeck,Lübeck,Lübeck,Lübeck,"53.8655° N, 10.6866° E",imperial city,1226,1806,,,,Roman-catholic,,1524,,,https://de.wikipedia.org/wiki/L%C3%BCbeck#Die_Zeit_der_Hanse,n
+NO,Schleswig-Holstein,Lübeck,Lübeck,Lübeck,Lübeck,"53.8655° N, 10.6866° E",imperial city,1226,1806,,,,lutheran,1524,,,,https://de.wikipedia.org/wiki/L%C3%BCbeck#Die_Zeit_der_Hanse,n
+NO,Schleswig-Holstein,Holstein-Pinneberg,Holstein-Pinneberg,Holstein-Pinnenberg,Pinneberg,"53.6545° N, 9.7938° E",county,1290,1640,,,,Roman-catholic,,1561,,,https://de.wikipedia.org/wiki/Holstein-Pinneberg,y
+NO,Schleswig-Holstein,Holstein-Pinneberg,Holstein-Pinneberg,Holstein-Pinnenberg,Pinneberg,"53.6545° N, 9.7938° E",county,1290,1640,,,,lutheran,1561,1601,,,https://de.wikipedia.org/wiki/Holstein-Pinneberg,y
+NO,Schleswig-Holstein,Holstein-Pinneberg,Holstein-Pinneberg,Holstein-Pinnenberg,Pinneberg,"53.6545° N, 9.7938° E",county,1290,1640,,,,calvinist,1601,,,,https://de.wikipedia.org/wiki/Holstein-Pinneberg,y
+NO,Schleswig-Holstein,Sachsen-Lauenburg,Sachsen-Lauenburg,Sachsen-Lauenburg,Lauenburg,"53.3763° N, 10.5497° E",duchy,1296,1876,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Herzogtum_Sachsen-Lauenburg,y
+NO,Schleswig-Holstein,Sachsen-Lauenburg,Sachsen-Lauenburg,Sachsen-Lauenburg,Lauenburg,"53.3763° N, 10.5497° E",duchy,1296,1876,,,,lutheran,1525,,,,https://de.wikipedia.org/wiki/Herzogtum_Sachsen-Lauenburg,y
+NW,Braunschweig,Braunschweig-Wolfenbüttel,Braunschweig-Wolfenbüttel,Braunschweig-Wolfenbüttel,Wolfenbüttel,"52.1640° N, 10.5408° E",principality,1269,1807,,,,Roman-catholic,,1568,SL,1542,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Wolfenbüttel,Braunschweig-Wolfenbüttel,Braunschweig-Wolfenbüttel,Wolfenbüttel,"52.1640° N, 10.5408° E",principality,1269,1807,,,,lutheran,1568,,SL,1542,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Calenberg,Braunschweig-Calenberg,Braunschweig-Calenberg,Calenberg,"51.4671° N, 9.1639° E",principality,1432,1495,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Lüneburg,Braunschweig-Lüneburg,Braunschweig-Lüneburg,Celle,"52.6176° N, 10.0629° E",principality,1269,1705,,,,Roman-catholic,,1526,SL,1531,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Lüneburg,Braunschweig-Lüneburg,Braunschweig-Lüneburg,Celle,"52.6176° N, 10.0629° E",principality,1269,1705,,,,lutheran,1526,,SL,1531,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Grubenhagen,Braunschweig-Grubenhagen,Braunschweig-Grubenhagen,Salzderhelden,"51.7980° N, 9.9251° E",principality,1291,1617,,,,Roman-catholic,,1526,SL,1531,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Grubenhagen,Braunschweig-Grubenhagen,Braunschweig-Grubenhagen,Salzderhelden,"51.7980° N, 9.9251° E",principality,1291,1617,,,,lutheran,1526,,SL,1531,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Göttingen,Braunschweig-Göttingen,Braunschweig-Göttingen,Göttingen,"51.5413° N, 9.9158° E",principality,1345,1495,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Calenberg-Göttingen,Braunschweig-Calenberg-Göttingen,Braunschweig-Calenberg-Göttingen,Calenberg,"51.4671° N, 9.1639° E",principality,1495,1665,,,,Roman-catholic,,1540,CL,,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Calenberg-Göttingen,Braunschweig-Calenberg-Göttingen,Braunschweig-Calenberg-Göttingen,Calenberg,"51.4671° N, 9.1639° E",principality,1495,1665,,,,lutheran,1540,,CL,,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Braunschweig-Calenberg-Göttingen-Grubenhagen,Braunschweig-Calenberg-Göttingen-Grubenhagen,Braunschweig-Calenberg-Göttingen-Gruebenhagen,Calenberg,"51.4671° N, 9.1639° E",principality,1665,1692,,,,lutheran,,,,,https://de.wikipedia.org/wiki/Herzogtum_Braunschweig-L%C3%BCneburg,y
+NW,Braunschweig,Goslar,Goslar,Goslar,Goslar,"51.9060° N, 10.4290° E",free imperial city,1290,1802,,,,Roman-catholic,,1526,SL,1532,https://de.wikipedia.org/wiki/Goslar#Reichsstadt,n
+NW,Braunschweig,Goslar,Goslar,Goslar,Goslar,"51.9060° N, 10.4290° E",free imperial city,1290,1802,,,,lutheran,1526,,SL,1532,https://de.wikipedia.org/wiki/Goslar#Reichsstadt,n
+NW,Braunschweig,Spiegelberg,Spiegelberg,Spiegelberg,Coppenbrügge,"52.1181° N, 9.5464° E",county of the empire,1281,1819,,,,Roman-catholic,,1540?,,,https://de.wikipedia.org/wiki/Grafen_von_Spiegelberg,n
+NW,Braunschweig,Spiegelberg,Spiegelberg,Spiegelberg,Coppenbrügge,"52.1181° N, 9.5464° E",county of the empire,1281,1819,,,,lutheran?,1540?,,,,https://de.wikipedia.org/wiki/Grafen_von_Spiegelberg,n
+NW,Braunschweig,Hildesheim,Hildesheim,Hildesheim,Hildesheim,"52.1548° N, 9.9580° E",principality,1235,1802,bishopric,815,1802,Roman-catholic,,1541,SL,1543,https://de.wikipedia.org/wiki/Hochstift_Hildesheim,y
+NW,Braunschweig,Hildesheim,Hildesheim,Hildesheim,Hildesheim,"52.1548° N, 9.9580° E",principality,1235,1802,bishopric,815,1802,lutheran,1541,,SL,1543,https://de.wikipedia.org/wiki/Hochstift_Hildesheim,y
+NW,Bremen,Bremen (Erzstift),Bremen (Erzstift),Bremen,Bücken,"52.7797° N, 9.1304° E",principality,1180,1648,archbishopric,1180,1648,Roman-catholic,,1540,,,https://de.wikipedia.org/wiki/Erzstift_und_Herzogtum_Bremen,y
+NW,Bremen,Bremen (Erzstift),Bremen (Erzstift),Bremen,Bücken,"52.7797° N, 9.1304° E",principality,1180,1648,archbishopric,1180,1648,lutheran,1540,,,,https://de.wikipedia.org/wiki/Erzstift_und_Herzogtum_Bremen,y
+NW,Bremen,Bremen,Bremen,Bremen,Bremen,"53.0793° N, 8.8017° E",Free imperial city,1186,1811,,,,Roman-catholic,,1534,SL,1531,https://de.wikipedia.org/wiki/Geschichte_der_Stadt_Bremen#Freie_Reichsstadt,n
+NW,Bremen,Bremen,Bremen,Bremen,Bremen,"53.0793° N, 8.8017° E",Free imperial city,1186,1811,,,,lutheran,1534,,SL,1531,https://de.wikipedia.org/wiki/Geschichte_der_Stadt_Bremen#Freie_Reichsstadt,n
+NW,Köln,Köln (Erzstift),Köln (Erzstift),Köln,Bonn,"50.7374° N, 7.0982° E",electorate,950,1803,archbishopric,450,1803,Roman-catholic,,1540,,,https://de.wikipedia.org/wiki/Kurk%C3%B6ln,y
+NW,Köln,Köln (Erzstift),Köln (Erzstift),Köln,Bonn,"50.7374° N, 7.0982° E",electorate,950,1803,archbishopric,450,1803,"lutheran, calvinist",1540,1580,,,https://de.wikipedia.org/wiki/Kurk%C3%B6ln,y
+NW,Köln,Köln (Erzstift),Köln (Erzstift),Köln,Bonn,"50.7374° N, 7.0982° E",electorate,950,1803,archbishopric,450,1803,Roman-catholic,1580,,,,https://de.wikipedia.org/wiki/Kurk%C3%B6ln,y
+NW,Köln,Köln,Köln,Köln,Köln,"50.9375° N, 6.9603° E",Free imperial city,1288,1776,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Geschichte_der_Stadt_K%C3%B6ln#Die_Freie_Reichsstadt_K%C3%B6ln,n
+NW,Köln,Westfalen,Westfalen,Westfalen,Arnsberg,"51.4073° N, 8.0528° E",duchy,1180,1803,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Westfalen,n
+NW,Köln,Recklingshausen,Recklingshausen,Recklingshausen,Recklinghausen,"51.6141° N, 7.1979° E",vest,1338,1803,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Vest_Recklinghausen,n
+NW,Jülich,Jülich,Jülich,Jülich,Jülich,"50.9224° N, 6.3639° E",duchy,1356,1801,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_J%C3%BClich,n
+NW,Jülich,Berg,Berg,Berg,Düsseldorf,"51.2277° N, 6.7735° E",duchy,1380,1806,,,,Roman-catholic,,1525?,,,https://de.wikipedia.org/wiki/Herzogtum_Berg#Die_Herz%C3%B6ge_von_J%C3%BClich-Berg,n
+NW,Jülich,Berg,Berg,Berg,Düsseldorf,"51.2277° N, 6.7735° E",duchy,1380,1806,,,,"Roman-catholic, lutheran, calvinist, reformed",1525?,,,,https://de.wikipedia.org/wiki/Herzogtum_Berg#Die_Herz%C3%B6ge_von_J%C3%BClich-Berg,n
+NW,Jülich,Kleve,Kleve,Kleve,Kleve,"51.7867° N, 6.1295° E",duchy,1417,1614,,,,Roman-catholic,,1525?,,,https://de.wikipedia.org/wiki/Herzogtum_Kleve,y
+NW,Jülich,Kleve,Kleve,Kleve,Kleve,"51.7867° N, 6.1295° E",duchy,1417,1614,,,,"Roman-catholic, lutheran, calvinist, reformed",1525?,,,,https://de.wikipedia.org/wiki/Herzogtum_Kleve,y
+NW,Jülich,Mark,Mark,Mark,Hamm,"51.6739° N, 7.8160° E",county,1199,1609,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Grafschaft_Mark,y
+NW,Jülich,Mark,Mark,Mark,Hamm,"51.6739° N, 7.8160° E",county,1199,1609,,,,"Roman-catholic, lutheran, calvinist, reformed",1525,,,,https://de.wikipedia.org/wiki/Grafschaft_Mark,y
+NW,Jülich,Ravensberg,Ravensberg,Ravensberg,Bielefeld,"52.0302° N, 8.5325° E",county,1140,1807,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Grafschaft_Ravensberg,y
+NW,Jülich,Ravensberg,Ravensberg,Ravensberg,Bielefeld,"52.0302° N, 8.5325° E",county,1140,1807,,,,"Roman-catholic, lutheran, calvinist, reformed",1525,,,,https://de.wikipedia.org/wiki/Grafschaft_Ravensberg,y
+NW,Münster,Münster (Hochstift),Münster (Hochstift),Münster,Münster,"51.9607° N, 7.6261° E",,,,bishopric,,1803,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_M%C3%BCnster,y
+NW,Osnabrück,Osnabrück (Hochstift),Osnabrück (Hochstift),Osnabrück,Osnabrück,"52.2799° N, 8.0472° E",principality,,1803,bishopric,,1803,Roman-catholic,,1543,SL,1544,https://de.wikipedia.org/wiki/Hochstift_Osnabr%C3%BCck,y
+NW,Osnabrück,Osnabrück (Hochstift),Osnabrück (Hochstift),Osnabrück,Osnabrück,"52.2799° N, 8.0472° E",principality,,1803,bishopric,,1803,"Roman-catholic, lutheran",1543,,SL,1544,https://de.wikipedia.org/wiki/Hochstift_Osnabr%C3%BCck,y
+NW,Paderborn,Paderborn (Hochstift),Paderborn (Hochstift),Paderborn,Paderborn,"51.7189° N, 8.7575° E",principality,,1803,bishopric,,1803,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Paderborn,y
+NW,Ostfriesland,Ostfriesland,Ostfriesland,Ostfriesland,Emden,"53.3594° N, 7.2060° E",county,1464,1806,,,,Roman-catholic,,1526,,,https://de.wikipedia.org/wiki/Grafschaft_Ostfriesland,y
+NW,Ostfriesland,Ostfriesland,Ostfriesland,Ostfriesland,Emden,"53.3594° N, 7.2060° E",county,1464,1806,,,,free,1526,1539,,,https://de.wikipedia.org/wiki/Grafschaft_Ostfriesland,y
+NW,Ostfriesland,Ostfriesland,Ostfriesland,Ostfriesland,Emden,"53.3594° N, 7.2060° E",county,1464,1806,,,,"lutheran, reformed",1539,,,,https://de.wikipedia.org/wiki/Grafschaft_Ostfriesland,y
+NW,Tecklenburg,Tecklenburg,Tecklenburg,Tecklenburg,Tecklenburg,"52.2203° N, 7.8124° E",county,1139,1707,,,,Roman-catholic,,1527,SL,1538,https://de.wikipedia.org/wiki/Grafschaft_Tecklenburg,y
+NW,Tecklenburg,Tecklenburg,Tecklenburg,Tecklenburg,Tecklenburg,"52.2203° N, 7.8124° E",county,1139,1707,,,,lutheran,1527,1575,SL,1538,https://de.wikipedia.org/wiki/Grafschaft_Tecklenburg,y
+NW,Tecklenburg,Tecklenburg,Tecklenburg,Tecklenburg,Tecklenburg,"52.2203° N, 7.8124° E",county,1139,1707,,,,calvinist,1575,,SL,1538,https://de.wikipedia.org/wiki/Grafschaft_Tecklenburg,y
+NW,Tecklenburg,Bentheim,Bentheim,Bentheim,Bentheim,"52.5375° N, 7.0224° E",county,1228,1806,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Grafschaft_Bentheim,y
+NW,Tecklenburg,Bentheim,Bentheim,Bentheim,Bentheim,"52.5375° N, 7.0224° E",county,1228,1806,,,,lutheran,1544,1575,,,https://de.wikipedia.org/wiki/Grafschaft_Bentheim,y
+NW,Tecklenburg,Bentheim,Bentheim,Bentheim,Bentheim,"52.5375° N, 7.0224° E",county,1228,1806,,,,calvinist,1575,,,,https://de.wikipedia.org/wiki/Grafschaft_Bentheim,y
+NW,Tecklenburg,Steinfurt,Steinfurt,Steinfurt,Steinfurt,"52.1446° N, 7.3335° E",county,1495,1806,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Herrschaft_Steinfurt,y
+NW,Tecklenburg,Steinfurt,Steinfurt,Steinfurt,Steinfurt,"52.1446° N, 7.3335° E",county,1495,1806,,,,lutheran,1544,1575,,,https://de.wikipedia.org/wiki/Herrschaft_Steinfurt,y
+NW,Tecklenburg,Steinfurt,Steinfurt,Steinfurt,Steinfurt,"52.1446° N, 7.3335° E",county,1495,1806,,,,calvinist,1575,,,,https://de.wikipedia.org/wiki/Herrschaft_Steinfurt,y
+NW,Tecklenburg,Gronau,Gronau,Gronau,Gronau,"52.1841° N, 7.0289° E",lordship,1365,1806,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Gronau_(Westf.)#Geschichte,n
+NW,Tecklenburg,Gronau,Gronau,Gronau,Gronau,"52.1841° N, 7.0289° E",lordship,1365,1806,,,,lutheran,1544,1575,,,https://de.wikipedia.org/wiki/Gronau_(Westf.)#Geschichte,n
+NW,Tecklenburg,Gronau,Gronau,Gronau,Gronau,"52.1841° N, 7.0289° E",lordship,1365,1806,,,,calvinist,1575,,,,https://de.wikipedia.org/wiki/Gronau_(Westf.)#Geschichte,n
+NW,Tecklenburg,Rheda,Rheda,Rheda,Rheda-Wiedenbrück,"51.8459° N, 8.2997° E",lordship,1170,1808,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Herrschaft_Rheda,n
+NW,Tecklenburg,Rheda,Rheda,Rheda,Rheda-Wiedenbrück,"51.8459° N, 8.2997° E",lordship,1170,1808,,,,lutheran,1544,1575,,,https://de.wikipedia.org/wiki/Herrschaft_Rheda,n
+NW,Tecklenburg,Rheda,Rheda,Rheda,Rheda-Wiedenbrück,"51.8459° N, 8.2997° E",lordship,1170,1808,,,,calvinist,1575,,,,https://de.wikipedia.org/wiki/Herrschaft_Rheda,n
+NW,Tecklenburg,Lennep,Lennep,Linnep,Linnep castle,"51.3481° N, 6.8747° E",lordship,,,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Van_Lennep_(Adels-_und_Patriziergeschlecht),n
+NW,Tecklenburg,Lennep,Lennep,Linnep,Linnep castle,"51.3481° N, 6.8747° E",lordship,,,,,,lutheran,1544,1575,,,https://de.wikipedia.org/wiki/Van_Lennep_(Adels-_und_Patriziergeschlecht),n
+NW,Tecklenburg,Lennep,Lennep,Linnep,Linnep castle,"51.3481° N, 6.8747° E",lordship,,,,,,calvinist,1575,,,,https://de.wikipedia.org/wiki/Van_Lennep_(Adels-_und_Patriziergeschlecht),n
+NW,Tecklenburg,Alpen,Alpen,Alpen,Alpen,"51.5756° N, 6.5120° E",lordship,1074,,,,,Roman-catholic,,1544,,,https://www.alpen.de/de/inhalt/geschichte/,n
+NW,Tecklenburg,Alpen,Alpen,Alpen,Alpen,"51.5756° N, 6.5120° E",lordship,1074,,,,,lutheran,1544,1575,,,https://www.alpen.de/de/inhalt/geschichte/,n
+NW,Tecklenburg,Alpen,Alpen,Alpen,Alpen,"51.5756° N, 6.5120° E",lordship,1074,,,,,calvinist,1575,,,,https://www.alpen.de/de/inhalt/geschichte/,n
+NW,Tecklenburg,Helpenstein,Helpenstein,Helpenstein,Helpenstein,"51.1448° N, 6.6673° E",lordship,,,,,,Roman-catholic,,1544,,,https://www.helpenstein.com/geschichten/herrschaft-helpenstein/,n
+NW,Tecklenburg,Helpenstein,Helpenstein,Helpenstein,Helpenstein,"51.1448° N, 6.6673° E",lordship,,,,,,lutheran,1544,1575,,,https://www.helpenstein.com/geschichten/herrschaft-helpenstein/,n
+NW,Tecklenburg,Helpenstein,Helpenstein,Helpenstein,Helpenstein,"51.1448° N, 6.6673° E",lordship,,,,,,calvinist,1575,,,,https://www.helpenstein.com/geschichten/herrschaft-helpenstein/,n
+NW,Tecklenburg,Wevelinghoven,Wevelinghoven,Wevelinghoven,Wevelinghoven,"51.1061° N, 6.6210° E",lordship,,,,,,Roman-catholic,,1544,,,https://de.wikipedia.org/wiki/Wevelinghoven_(Adelsgeschlecht),n
+NW,Tecklenburg,Wevelinghoven,Wevelinghoven,Wevelinghoven,Wevelinghoven,"51.1061° N, 6.6210° E",lordship,,,,,,lutheran,1544,1575,,,https://de.wikipedia.org/wiki/Wevelinghoven_(Adelsgeschlecht),n
+NW,Tecklenburg,Wevelinghoven,Wevelinghoven,Wevelinghoven,Wevelinghoven,"51.1061° N, 6.6210° E",lordship,,,,,,calvinist,1575,,,,https://de.wikipedia.org/wiki/Wevelinghoven_(Adelsgeschlecht),n
+NW,Luxemburg,Luxembourg,Luxembourg,Luxemburg,Luxemburg,"49.8153° N, 6.1296° E",duchy,1354,1714,,,,,,,,,https://de.wikipedia.org/wiki/Geschichte_Luxemburgs,n
+NW,Luxemburg,Luxembourg,Luxembourg,Luxemburg,Luxemburg,"49.8153° N, 6.1296° E",duchy,1354,1714,,,,,,,,,https://de.wikipedia.org/wiki/Geschichte_Luxemburgs,n
+NW,Niederlande,Limburg,Limburg,Limburg,Limburg,"50.3986° N, 8.0796° E",duchy,1165,1648,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Limburg,n
+NW,Niederlande,Brabant,Brabant,Brabant,Löwen,"51.5794° N, 9.0998° E",duchy,1182,1648,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Herzogtum_Brabant,n
+NW,Niederlande,Brabant,Brabant,Brabant,Löwen,"51.5794° N, 9.0998° E",duchy,1182,1648,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Herzogtum_Brabant,n
+NW,Niederlande,Mecheln,Mecheln,Mechelen,Mechelen,"51.0259° N, 4.4775° E",county,1490,1795,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herrlichkeit_Mechelen,n
+NW,Niederlande,Holland,Holland,Holland,Haarlem,"52.3874° N, 4.6462° E
+",county,922,1795,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Grafschaft_Holland,n
+NW,Niederlande,Holland,Holland,Holland,Haarlem,"52.3874° N, 4.6462° E
+",county,922,1795,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Grafschaft_Holland,n
+NW,Niederlande,Zeeland,Zeeland,Zeeland,Middelburg,"51.4988° N, 3.6110° E",county,,,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Provinz_Zeeland#Fr%C3%A4nkische_Zeit,n
+NW,Niederlande,Zeeland,Zeeland,Zeeland,Middelburg,"51.4988° N, 3.6110° E",county,,,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Provinz_Zeeland#Fr%C3%A4nkische_Zeit,n
+NW,Niederlande,Flandern,Flandern,Flandern,Ghent,"51.0543° N, 3.7174° E",county,1477,1648,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Grafschaft_Flandern,n
+NW,Niederlande,Flandern,Flandern,Flandern,Ghent,"51.0543° N, 3.7174° E",county,1477,1648,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Grafschaft_Flandern,n
+NW,Niederlande,Artois,Artois,Artois,Arras,"50.2910° N, 2.7775° E",county,,1659,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Artois,y
+NW,Niederlande,Hennegau,Hennegau,Hennegau,Valenciennes,"50.3571° N, 3.5183° E",county,1051,1548,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Grafschaft_Hennegau,y
+NW,Niederlande,Namur,Namur,Namur,Namur,"50.4674° N, 4.8720° E",county,1477,1548,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Grafschaft_Namur,y
+NW,Niederlande,Horn,Horn,Hoorn,Horn castle,"51.2081° N, 5.9518° E",county of the empire,1450,1801,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Grafschaft_Hoorn,n
+NW,Niederlande,Horn,Horn,Hoorn,Horn castle,"51.2081° N, 5.9518° E",county of the empire,1450,1801,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Grafschaft_Hoorn,n
+NW,Niederlande,Tournai,Tournai,Tournai,Tournai,"50.6056° N, 3.3879° E",county,1521,1795,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Tournai#Geschichte,n
+NW,Niederlande,Tournai,Tournai,Tournai,Tournai,"50.6056° N, 3.3879° E",county,1521,1795,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Tournai#Geschichte,n
+NW,Niederlande,Friesland,Friesland,Friesland,Leeuwarden,"53.2012° N, 5.7999° E",lordship,1524,1795,,,,Roman-catholic,,1580,,,https://de.wikipedia.org/wiki/Herrschaft_Friesland,n
+NW,Niederlande,Friesland,Friesland,Friesland,Leeuwarden,"53.2012° N, 5.7999° E",lordship,1524,1795,,,,calvinist,1580,,,,https://de.wikipedia.org/wiki/Herrschaft_Friesland,n
+NW,Niederlande,Utrecht (Hochstift),Utrecht (Hochstift),Utrecht,Utrecht,"52.0907° N, 5.1214° E",,,,bishopric,,1579,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Hochstift_Utrecht,y
+NW,Niederlande,Utrecht (Hochstift),Utrecht (Hochstift),Utrecht,Utrecht,"52.0907° N, 5.1214° E",,,,bishopric,,1579,calvinist,1579,,,,https://de.wikipedia.org/wiki/Hochstift_Utrecht,y
+NW,Niederlande,Groningen,Groningen,Groningen,Groningen,"53.2194° N, 6.5665° E",lordship,843,1594,,,,Roman-catholic,,1579,,,https://de.m.wikipedia.org/wiki/Provinz_Groningen,n
+NW,Niederlande,Groningen,Groningen,Groningen,Groningen,"53.2194° N, 6.5665° E",lordship,843,1594,,,,calvinist,1579,,,,https://de.m.wikipedia.org/wiki/Provinz_Groningen,n
+,,,Geldern,Geldern,Geldern,"51.5204° N, 6.3258° E",duchy,1339,1581,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Herzogtum_Geldern,y
+,,,Geldern,Geldern,Geldern,"51.5204° N, 6.3258° E",duchy,1339,1581,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Herzogtum_Geldern,y
+NW,Niederlande,Geldern und Zutphen,Geldern und Zutphen,Geldern und Zutphen,Geldern,"51.5204° N, 6.3258° E",duchy,1339,1581,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Herzogtum_Geldern,y
+NW,Niederlande,Geldern und Zutphen,Geldern und Zutphen,Geldern und Zutphen,Geldern,"51.5204° N, 6.3258° E",duchy,1339,1581,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Herzogtum_Geldern,y
+NW,Niederlande,Cambrai (Hochstift),Cambrai (Hochstift),Cambrai,Cambrai,"50.1735° N, 3.2366° E",principality,1007,1678,archbishopric,1559,1678,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Cambrai,y
+NW,Niederlande,Drenthe,Drenthe,Drenthe,Assen,"52.9928° N, 6.5642° E",county,1025,1581,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Provinz_Drenthe#Geschichte,n
+NW,Niederlande,Drenthe,Drenthe,Drenthe,Assen,"52.9928° N, 6.5642° E",county,1025,1581,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Provinz_Drenthe#Geschichte,n
+,,,Zutphen,Zutphen,Zutphen,"52.1427° N, 6.1961° E",county,1046,1579,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Grafschaft_Zutphen,n
+,,,Zutphen,Zutphen,Zutphen,"52.1427° N, 6.1961° E",county,1046,1579,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Grafschaft_Zutphen,n
+MD,Nassau,Nassau (ottonisch),Nassau (ottonisch),Nassau (ottonisch),Siegen,"50.8838° N, 8.0210° E",county,1255,1607,,,,Roman-catholic,,1530,,,https://de.wikipedia.org/wiki/Haus_Nassau,n
+MD,Nassau,Nassau (ottonisch),Nassau (ottonisch),Nassau (ottonisch),Siegen,"50.8838° N, 8.0210° E",county,1255,1607,,,,lutheran,1530,1579,,,https://de.wikipedia.org/wiki/Haus_Nassau,n
+MD,Nassau,Nassau (ottonisch),Nassau (ottonisch),Nassau (ottonisch),Siegen,"50.8838° N, 8.0210° E",county,1255,1607,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Haus_Nassau,n
+MD,Nassau,Nassau (walramisch),Nassau (walramisch),Nassau (walramisch),Wiesbaden,"50.0782° N, 8.2398° E",county,1255,1607,,,,Roman-catholic,,1525,SL,1537,https://de.wikipedia.org/wiki/Haus_Nassau,n
+MD,Nassau,Nassau (walramisch),Nassau (walramisch),Nassau (walramisch),Wiesbaden,"50.0782° N, 8.2398° E",county,1255,1607,,,,lutheran,1525,,SL,1537,https://de.wikipedia.org/wiki/Haus_Nassau,n
+SW,Schweiz,Basel (Fürstbistim),Basel (Fürstbistim),Basel,Pruntrut,"47.4166° N, 7.0766° E","principality, zugewandter Ort",999,1803,bishopric,400,1803,Roman-catholic,,1521,,,https://de.wikipedia.org/wiki/F%C3%BCrstbistum_Basel,y
+SW,Schweiz,Basel (Fürstbistim),Basel (Fürstbistim),Basel,Pruntrut,"47.4166° N, 7.0766° E","principality, zugewandter Ort",999,1803,bishopric,400,1803,"Roman-catholic, reformed",1521,,,,https://de.wikipedia.org/wiki/F%C3%BCrstbistum_Basel,y
+SW,Schweiz,Solothurn,Solothurn,Solothurn,Solothurn,"47.2088° N, 7.5323° E",imperial city,1218,,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Solothurn#Solothurn_wird_reichsfreie_Stadt,n
+SW,Schweiz,Bern,Bern,Bern,Bern,"46.9480° N, 7.4474° E",imperial city,1218,1798,,,,Roman-catholic,,1528,,,https://de.wikipedia.org/wiki/Stadt_und_Republik_Bern,y
+SW,Schweiz,Bern,Bern,Bern,Bern,"46.9480° N, 7.4474° E",imperial city,1218,1798,,,,reformed,1528,,,,https://de.wikipedia.org/wiki/Stadt_und_Republik_Bern,y
+SW,Schweiz,Luzern,Luzern,Luzern,Luzern,"47.0502° N, 8.3093° E",imperial city,1415,1648,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Luzern#Von_der_Stadt_zum_Stadtstaat_(1386%E2%80%931520),n
+SW,Schweiz,Unterwalden,Unterwalden,Unterwalden,Stans,"46.9572° N, 8.3660° E",,,,,,,,,,,,https://de.wikipedia.org/wiki/Unterwalden,n
+SW,Schweiz,Zug,Zug,Zug,Zug,"47.1662° N, 8.5155° E",imperial city,,,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Kanton_Zug#Zug_in_der_alten_Eidgenossenschaft,n
+SW,Schweiz,Schwyz,Schwyz,Schwyz,Schwyz,"47.0207° N, 8.6530° E",,,,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Geschichte_des_Kantons_Schwyz#Fr%C3%BChe_Neuzeit,n
+SW,Schweiz,Zürich,Zürich,Zürich,Zürich,"47.3769° N, 8.5417° E",imperial city,1262,1798,,,,Roman-catholic,,1519,,,https://de.wikipedia.org/wiki/Geschichte_der_Stadt_Z%C3%BCrich#Reformation_1519%E2%80%931531,n
+SW,Schweiz,Zürich,Zürich,Zürich,Zürich,"47.3769° N, 8.5417° E",imperial city,1262,1798,,,,reformed,1519,,,,https://de.wikipedia.org/wiki/Geschichte_der_Stadt_Z%C3%BCrich#Reformation_1519%E2%80%931531,n
+SW,Schweiz,Schaffhausen,Schaffhausen,Schaffhausen,Schaffhausen,"47.6959° N, 8.6380° E",imperial city,1418,1798,,,,Roman-catholic,,1529,,,https://de.wikipedia.org/wiki/Schaffhausen#16._bis_18._Jahrhundert,n
+SW,Schweiz,Schaffhausen,Schaffhausen,Schaffhausen,Schaffhausen,"47.6959° N, 8.6380° E",imperial city,1418,1798,,,,reformed,1529,,,,https://de.wikipedia.org/wiki/Schaffhausen#16._bis_18._Jahrhundert,n
+SW,Schweiz,St. Gallen,St. Gallen,"St, Gallen",St. Gallen,"47.4245° N, 9.3767° E","principality, zugewandter Ort",719,1798,abbey,719,1798,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/F%C3%BCrstabtei_St._Gallen,n
+SW,Schweiz,St. Gallen,St. Gallen,"St, Gallen",St. Gallen,"47.4245° N, 9.3767° E","principality, zugewandter Ort",719,1798,abbey,719,1798,reformed,1525,1572,,,https://de.wikipedia.org/wiki/F%C3%BCrstabtei_St._Gallen,n
+SW,Schweiz,St. Gallen,St. Gallen,"St, Gallen",St. Gallen,"47.4245° N, 9.3767° E","principality, zugewandter Ort",719,1798,abbey,719,1798,Roman-catholic,1572,,,,https://de.wikipedia.org/wiki/F%C3%BCrstabtei_St._Gallen,n
+SW,Schweiz,Appenzell,Appenzell,Appenzell,Appenzell,"47.3349° N, 9.4066° E",zugewandter Ort,1071,1597,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Kanton_Appenzell,n
+SW,Schweiz,Appenzell,Appenzell,Appenzell,Appenzell,"47.3349° N, 9.4066° E",zugewandter Ort,1071,1597,,,,"Roman-catholic, reformed",1525,,,,https://de.wikipedia.org/wiki/Kanton_Appenzell,n
+,,,Appenzell-Innerrhoden,Appenzell-Innerrhoden,Appenzell,"47.3349° N, 9.4066° E",zugewandter Ort,1597,1798,,,,Roman-catholic,1597,,,,https://de.wikipedia.org/wiki/Kanton_Appenzell,n
+,,,Appenzell-Ausserrhoden,Appenzell-Ausserrhoden,Herisau,"47.3857° N, 9.2798° E",zugewandter Ort,1597,1798,,,,reformed,1597,,,,https://de.wikipedia.org/wiki/Kanton_Appenzell,n
+SW,Schweiz,Drei Bünde,Drei Bünde,Drei Bünde,Chur,"46.8508° N, 9.5320° E",zugewandter Ort,1367,1798,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Drei_B%C3%BCnde,n
+SW,Schweiz,Drei Bünde,Drei Bünde,Drei Bünde,Chur,"46.8508° N, 9.5320° E",zugewandter Ort,1367,1798,,,,reformed,1525,,,,https://de.wikipedia.org/wiki/Drei_B%C3%BCnde,n
+SW,Schweiz,Wallis,Wallis,Wallis,Sion,"46.2331° N, 7.3606° E","county, zugewandter Ort",1032,1798,,,,Roman-catholic,,1585,,,https://de.wikipedia.org/wiki/Geschichte_des_Wallis#Die_Grafschaft_Wallis,n
+SW,Schweiz,Wallis,Wallis,Wallis,Sion,"46.2331° N, 7.3606° E","county, zugewandter Ort",1032,1798,,,,reformed,1585,1604,,,https://de.wikipedia.org/wiki/Geschichte_des_Wallis#Die_Grafschaft_Wallis,n
+SW,Schweiz,Wallis,Wallis,Wallis,Sion,"46.2331° N, 7.3606° E","county, zugewandter Ort",1032,1798,,,,Roman-catholic,1604,,,,https://de.wikipedia.org/wiki/Geschichte_des_Wallis#Die_Grafschaft_Wallis,n
+SW,Schweiz,Uri,Uri,Uri,Altdorf,"46.8821° N, 8.6428° E",Reichsunmittelbarkeit,1274,1798,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Kanton_Uri,n
+SW,Schweiz,Lausanne,Lausanne,Lausanne,Lausanne,"46.5197° N, 6.6323° E","city, zugewandter Ort",1026,1798,bishopric,550,1536,Roman-catholic,,1536,,,https://de.wikipedia.org/wiki/Lausanne#Eroberung_durch_Bern,n
+SW,Schweiz,Lausanne,Lausanne,Lausanne,Lausanne,"46.5197° N, 6.6323° E","city, zugewandter Ort",1026,1798,bishopric,550,1536,calvinist,1536,,,,https://de.wikipedia.org/wiki/Lausanne#Eroberung_durch_Bern,n
+SW,Schweiz,Genf,Genf,Genf,Genf,"46.2044° N, 6.1432° E","city, zugewandter Ort",1026,1798,bishopric,1026,1821,Roman-catholic,,1536,,,https://de.wikipedia.org/wiki/Genf,n
+SW,Schweiz,Genf,Genf,Genf,Genf,"46.2044° N, 6.1432° E","city, zugewandter Ort",1026,1798,,,,calvinist,1536,,,,https://de.wikipedia.org/wiki/Genf,n
+SW,Schweiz,Fribourg,Fribourg,Freiburg,Freiburg,"46.8065° N, 7.1620° E",Free imperial city,1478,1798,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Freiburg_im_%C3%9Cechtland#Mittelalter,n
+,,,Greyerz,Greyerz,Greyerz,"46.5778° N, 7.0625° E",county,1000,1555,,,,Roman-catholic,,1536,,,https://de.wikipedia.org/wiki/Grafschaft_Greyerz,y
+,,,Greyerz,Greyerz,Greyerz,"46.5778° N, 7.0625° E",county,1000,1555,,,,"Roman-catholic, reformed",1536,,,,https://de.wikipedia.org/wiki/Grafschaft_Greyerz,y
+,,,Greyerz,Greyerz,Greyerz,"46.5778° N, 7.0625° E","bailiwick, zugewandter Ort",1555,1798,,,,Roman-catholic,1555,,,,https://de.wikipedia.org/wiki/Grafschaft_Greyerz,y
+,,,Saanen,Saanen,Saanen,"46.4897° N, 7.2617° E","bailiwick, zugewandter Ort",1555,1798,,,,reformed,1555,,,,https://de.wikipedia.org/wiki/Grafschaft_Greyerz,y
+SW,Schweiz,Neuenburg,Neuenburg,Neuenburg,Neuenburg,"46.9900° N, 6.9293° E",county,1032,1798,,,,Roman-catholic,,1530,,,https://de.wikipedia.org/wiki/Kanton_Neuenburg#Reformation,n
+SW,Schweiz,Neuenburg,Neuenburg,Neuenburg,Neuenburg,"46.9900° N, 6.9293° E",county,1032,1798,,,,reformed,1530,,,,https://de.wikipedia.org/wiki/Kanton_Neuenburg#Reformation,n
+NO,Schleswig-Holstein,Hamburg,Hamburg,Hamburg,Hamburg,"53.5511° N, 9.9937° E",imperial city,1510,1806,,,,Roman-catholic,,1529,SL,1536,https://geschichtsbuch.hamburg.de/epochen/reformationszeit/,n
+NO,Schleswig-Holstein,Hamburg,Hamburg,Hamburg,Hamburg,"53.5511° N, 9.9937° E",imperial city,1510,1806,,,,lutheran,1529,,SL,1536,https://geschichtsbuch.hamburg.de/epochen/reformationszeit/,n
+SO,Bayern,Freising (Hochstift),Freising (Hochstift),Freising,Freising,"48.4029° N, 11.7412° E",principality,1294,1802,bishopric,1294,1802,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Freising,y
+SO,Bayern,Regensburg (Hochstift),Regensburg (Hochstift),Regensburg,Wörth an der Donau,"48.9987° N, 12.4064° E",principality,739,1803,bishopric,739,1803,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Hochstift_Regensburg,y
+SO,Bayern,Regensburg,Regensburg,Regensburg,Regensburg,"49.0134° N, 12.1016° E",imperial city,1496,1803,,,,Roman-catholic,,1542,,,https://de.wikipedia.org/wiki/Regensburg#16._Jahrhundert,n
+SO,Bayern,Regensburg,Regensburg,Regensburg,Regensburg,"49.0134° N, 12.1016° E",imperial city,1496,1803,,,,lutheran,1542,,,,https://de.wikipedia.org/wiki/Regensburg#16._Jahrhundert,n
+SW,Schweiz,Thurgau,Thurgau,Thurgau,Frauenfeld,"47.5536° N, 8.8988° E",gemeine Herrschaft,1460,1798,,,,Roman-catholic,,1529,,,https://de.wikipedia.org/wiki/Geschichte_des_Kantons_Thurgau,n
+SW,Schweiz,Thurgau,Thurgau,Thurgau,Frauenfeld,"47.5536° N, 8.8988° E",gemeine Herrschaft,1460,1798,,,,reformed,1529,,,,https://de.wikipedia.org/wiki/Geschichte_des_Kantons_Thurgau,n
+SW,Schweiz,Glarus,Glarus,Glarus,Glarus,"47.0411° N, 9.0679° E",Kanton,,1798,,,,Roman-catholic,,1530,,,https://de.wikipedia.org/wiki/Geschichte_des_Kantons_Glarus#Reformation_und_Konfessionalismus,n
+SW,Schweiz,Glarus,Glarus,Glarus,Glarus,"47.0411° N, 9.0679° E",Kanton,,1798,,,,free,1530,,,,https://de.wikipedia.org/wiki/Geschichte_des_Kantons_Glarus#Reformation_und_Konfessionalismus,n
+SW,Vorderösterreich,Ortenau,Ortenau,Ortenau,Ortenberg,"48.4439° N, 7.9734° E",bailiwick,1218,1805,,,,Roman-catholic,,1525,,,https://de.wikipedia.org/wiki/Ortenau,n
+SW,Vorderösterreich,Ortenau,Ortenau,Ortenau,Ortenberg,"48.4439° N, 7.9734° E",bailiwick,1218,1805,,,,mixed,1525,,,,https://de.wikipedia.org/wiki/Ortenau,n
+SW,Vorderösterreich,Hohenlandsberg,Hohenlandsberg,Hohenlandsberg,Weiler,"48.3438° N, 7.3037° E",lordship,1279,1697,,,,Roman-catholic,,1563,,,https://de.wikipedia.org/wiki/Lazarus_von_Schwendi,n
+SW,Vorderösterreich,Hohenlandsberg,Hohenlandsberg,Hohenlandsberg,Weiler,"48.3438° N, 7.3037° E",lordship,1279,1697,,,,free,1563,,,,https://de.wikipedia.org/wiki/Lazarus_von_Schwendi,n
+SW,Wertheim,Breuberg,Breuberg,Breuberg,Breuberg,"49.8166° N, 9.0234° E",lordship,1222,1806,,,,Roman-catholic,,1530,,,https://de.wikipedia.org/wiki/Herrschaft_Breuberg#Reformation,n
+SW,Wertheim,Breuberg,Breuberg,Breuberg,Breuberg,"49.8166° N, 9.0234° E",lordship,1222,1806,,,,lutheran,1530,,,,https://de.wikipedia.org/wiki/Herrschaft_Breuberg#Reformation,n
+SW,Oberpfalz,Leuchtenberg,Leuchtenberg,Leuchtenberg,Leuchtenberg,"49.5976° N, 12.2589° E",landgraviate,1196,1646,,,,Roman-catholic,,1549,,,https://de.wikipedia.org/wiki/Landgrafschaft_Leuchtenberg,y
+SW,Oberpfalz,Leuchtenberg,Leuchtenberg,Leuchtenberg,Leuchtenberg,"49.5976° N, 12.2589° E",landgraviate,1196,1646,,,,free,1549,1567,,,https://de.wikipedia.org/wiki/Landgrafschaft_Leuchtenberg,y
+SW,Oberpfalz,Leuchtenberg,Leuchtenberg,Leuchtenberg,Leuchtenberg,"49.5976° N, 12.2589° E",landgraviate,1196,1646,,,,Roman-catholic,1567,,,,https://de.wikipedia.org/wiki/Landgrafschaft_Leuchtenberg,y
+SO,Bayern,Berchtesgaden,Berchtesgaden,Berchtesgaden,Berchtesgaden,"47.6302° N, 13.0001° E",principality,1194,1803,abbey,1194,1803,Roman-catholic,,,,,https://de.wikipedia.org/wiki/F%C3%BCrstpropstei_Berchtesgaden#Reformation,y
+SO,Bayern,Ortenburg,Ortenburg,Ortenburg,Ortenburg,"48.5450° N, 13.2241° E",imperial county,1120,1805,,,,Roman-catholic,,1563,,,https://de.wikipedia.org/wiki/Reichsgrafschaft_Ortenburg,y
+SO,Bayern,Ortenburg,Ortenburg,Ortenburg,Ortenburg,"48.5450° N, 13.2241° E",imperial county,1120,1805,,,,lutheran,1563,,,,https://de.wikipedia.org/wiki/Reichsgrafschaft_Ortenburg,y
+SO,Österreich,Waidhofen,Waidhofen,Waidhofen,Waidhofen,"47.9602° N, 14.7728° E",city,1273,1803,,,,Roman-catholic,,1550,,,https://de.wikipedia.org/wiki/Waidhofen_an_der_Ybbs#Niedergang_im_16._Jahrhundert,n
+SO,Österreich,Waidhofen,Waidhofen,Waidhofen,Waidhofen,"47.9602° N, 14.7728° E",city,1273,1803,,,,lutheran,1550,1600,,,https://de.wikipedia.org/wiki/Waidhofen_an_der_Ybbs#Niedergang_im_16._Jahrhundert,n
+SO,Österreich,Waidhofen,Waidhofen,Waidhofen,Waidhofen,"47.9602° N, 14.7728° E",city,1273,1803,,,,Roman-catholic,1600,,,,https://de.wikipedia.org/wiki/Waidhofen_an_der_Ybbs#Niedergang_im_16._Jahrhundert,n
+SW,Oberpfalz,Störnstein,Störnstein,Störnstein,Störnstein,"49.7310° N, 12.2000° E",lordship,,1641,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Gef%C3%BCrstete_Grafschaft_St%C3%B6rnstein,y
+SO,Pfalz-Neuburg,Sulzbach,Sulzbach,Pfalz-Sulzbach,Sulzbach,"49.4970° N, 11.7554° E",principality,1505,1799,,,,Roman-catholic,,1542,,,https://de.wikipedia.org/wiki/Pfalz-Sulzbach,y
+SO,Pfalz-Neuburg,Sulzbach,Sulzbach,Pfalz-Sulzbach,Sulzbach,"49.4970° N, 11.7554° E",principality,1505,1799,,,,lutheran,1542,1627,,,https://de.wikipedia.org/wiki/Pfalz-Sulzbach,y
+SO,Pfalz-Neuburg,Sulzbach,Sulzbach,Pfalz-Sulzbach,Sulzbach,"49.4970° N, 11.7554° E",principality,1505,1799,,,,Roman-catholic,1627,,,,https://de.wikipedia.org/wiki/Pfalz-Sulzbach,y
+SO,Pfalz-Neuburg,Kaisheim,Kaisheim,Kaisheim,Kaisheim,"48.7700° N, 10.7942° E",principality,1370,1802,abbey,1370,1802,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Kloster_Kaisheim,n
+SO,Pfalz-Neuburg,Haunsheim,Haunsheim,Haunsheim,Haunsheim,"48.5991° N, 10.3761° E",county?,,,,,,Roman-catholic,,1603,,,http://genwiki.genealogy.net/Haunsheim#Geschichte,n
+SO,Pfalz-Neuburg,Haunsheim,Haunsheim,Haunsheim,Haunsheim,"48.5991° N, 10.3761° E",county?,,,,,,lutheran,1603,,,,http://genwiki.genealogy.net/Haunsheim#Geschichte,n
+MD,ernestinisches Sachsen,Gera-Schleiz,Gera-Schleiz,Gera-Schleiz,Gera,"50.8851° N, 12.0807° E",lordship,,,,,,Roman-catholic,,1541,,,,n
+MD,ernestinisches Sachsen,Gera-Schleiz,Gera-Schleiz,Gera-Schleiz,Gera,"50.8851° N, 12.0807° E",lordship,,,,,,lutheran,1541,,,,,n
+MD,ernestinisches Sachsen,Plauen-Greiz,Plauen-Greiz,Plauen-Greiz,Plauen,"50.4976° N, 12.1369° E",lordship,,,,,,Roman-catholic,,1536,,,,n
+MD,ernestinisches Sachsen,Plauen-Greiz,Plauen-Greiz,Plauen-Greiz,Plauen,"50.4976° N, 12.1369° E",lordship,,,,,,lutheran,1536,,,,,n
+MD,ernestinisches Sachsen,Meissen (Burggraf),Meissen (Burggraf),Meissen,Plauen,"50.4976° N, 12.1369° E",imperial castle,1547,1572?,,,,Roman-catholic,,1548?,,,,n
+MD,ernestinisches Sachsen,Meissen (Burggraf),Meissen (Burggraf),Meissen,Plauen,"50.4976° N, 12.1369° E",imperial castle,1547,1572?,,,,free?,1548?,,,,,n
+SW,Lothringen,Bar,Bar,Bar,Bar,"48.7736° N, 5.1582° E",duchy,1354,1766,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Herzogtum_Bar,y
+SW,Oberpfalz,Stiftland Waldsassen,Stiftland Waldsassen,Stiftland Waldsassen,Waldsassen,"50.0028° N, 12.3056° E",principality,1133,1621,abbey,1133,1621,Roman-catholic,,1555?,,,https://de.wikipedia.org/wiki/Stiftland,n
+SW,Oberpfalz,Stiftland Waldsassen,Stiftland Waldsassen,Stiftland Waldsassen,Waldsassen,"50.0028° N, 12.3056° E",principality,1133,1621,abbey,1133,1621,lutheran,1555?,1590?,,,https://de.wikipedia.org/wiki/Stiftland,n
+SW,Oberpfalz,Stiftland Waldsassen,Stiftland Waldsassen,Stiftland Waldsassen,Waldsassen,"50.0028° N, 12.3056° E",principality,1133,1621,abbey,1133,1621,calvinist,1590?,1621,,,https://de.wikipedia.org/wiki/Stiftland,n
+SW,Oberpfalz,Stiftland Waldsassen,Stiftland Waldsassen,Stiftland Waldsassen,Waldsassen,"50.0028° N, 12.3056° E",principality,1133,1621,abbey,1133,1621,Roman-catholic,1621,,,,https://de.wikipedia.org/wiki/Stiftland,n
+MD,Hessen,Diez,Diez,Diez,Diez,"50.3706° N, 8.0161° E",county,1073,,,,,Roman-catholic,,1527?,,,https://de.wikipedia.org/wiki/Grafschaft_Diez,n
+MD,Hessen,Diez,Diez,Diez,Diez,"50.3706° N, 8.0161° E",county,1073,,,,,lutheran,1527?,,,,https://de.wikipedia.org/wiki/Grafschaft_Diez,n
+NO,Schlesien,Hotzenplotz (mährisch),Hotzenplotz (mährisch),Hotzenplotz,Hotzenplotz,"50.2752° N, 17.7152° E",city?,1250,,,,,Roman-catholic,,1530,,,,n
+NO,Schlesien,Hotzenplotz (mährisch),Hotzenplotz (mährisch),Hotzenplotz,Hotzenplotz,"50.2752° N, 17.7152° E",city?,1250,,,,,mixed,,,,,,n
+NO,Schlesien,Katscher (mährisch),Katscher (mährisch),Katscher,Katscher,"50.0800° N, 18.0041° E",city?,,,,,,,,,,,,n
+NW,Braunschweig,Hoya,Hoya,Hoya,Hoya,"52.8100° N, 9.1379° E",county,1202,1866,,,,Roman-catholic,,1523,,,https://de.wikipedia.org/wiki/Grafschaft_Hoya,y
+NW,Braunschweig,Hoya,Hoya,Hoya,Hoya,"52.8100° N, 9.1379° E",county,1202,1866,,,,lutheran,1523,,,,https://de.wikipedia.org/wiki/Grafschaft_Hoya,y
+NW,Braunschweig,Diepholz,Diepholz,Diepholz,Diepholz,"52.6056° N, 8.3708° E",county,1160,1629,,,,Roman-catholic,,1528,,,https://de.wikipedia.org/wiki/Grafschaft_Diepholz,y
+NW,Braunschweig,Diepholz,Diepholz,Diepholz,Diepholz,"52.6056° N, 8.3708° E",county,1160,1629,,,,lutheran,1528,,,,https://de.wikipedia.org/wiki/Grafschaft_Diepholz,y
+NW,Braunschweig,Honstein,Honstein,Honstein,Honstein,"50.9796° N, 14.1097° E",county,1100,1593,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Grafschaft_Hohnstein,n
+NW,Braunschweig,Honstein,Honstein,Honstein,Honstein,"50.9796° N, 14.1097° E",county,1100,1593,,,,lutheran,,,,,https://de.wikipedia.org/wiki/Grafschaft_Hohnstein,n
+NW,Braunschweig,Regenstein-Blankenburg,Regenstein-Blankenburg,Regenstein-Blankenburg,Blankenburg,"51.8164° N, 10.9773° E",county,1128,1707,,,,Roman-catholic,,1526?,,,https://de.wikipedia.org/wiki/Grafschaft_Blankenburg,y
+NW,Braunschweig,Regenstein-Blankenburg,Regenstein-Blankenburg,Regenstein-Blankenburg,Blankenburg,"51.8164° N, 10.9773° E",county,1128,1707,,,,lutheran,1526?,,,,https://de.wikipedia.org/wiki/Grafschaft_Blankenburg,y
+NW,Niederlande,Overijssel,Overijssel,Overijssel,Zwolle,"52.5168° N, 6.0830° E",lordship,1528,1814,,,,Roman-catholic,,1579,,,https://de.wikipedia.org/wiki/Provinz_Overijssel#Geschichte,n
+NW,Niederlande,Overijssel,Overijssel,Overijssel,Zwolle,"52.5168° N, 6.0830° E",lordship,1528,1814,,,,calvinist,1579,,,,https://de.wikipedia.org/wiki/Provinz_Overijssel#Geschichte,n
+NW,Niederlande,Lüttich (Hochstift),Lüttich (Hochstift),Lüttich,Lüttich,"50.6326° N, 5.5797° E",principality,,1794,bishopric,,1794,Roman-catholic,,,,,https://de.wikipedia.org/wiki/F%C3%BCrstbistum_L%C3%BCttich,y
+NW,Paderborn,Grevenhagen,Grevenhagen,Grevenhagen,Grevenhagen,"51.7972° N, 8.9763° E",bailiwick,1535,1607,,,,Roman-catholic,,,,,https://de.wikipedia.org/wiki/Grevenhagen,n
+NW,Tecklenburg,Lingen,Lingen,Lingen,Lingen,"52.5403° N, 7.3293° E",county,1180,1806,,,,Roman-catholic,,1541?,,,https://de.wikipedia.org/wiki/Grafschaft_Lingen,n
+NW,Tecklenburg,Lingen,Lingen,Lingen,Lingen,"52.5403° N, 7.3293° E",county,1180,1806,,,,lutheran,1541?,,,,https://de.wikipedia.org/wiki/Grafschaft_Lingen,n
+NO,Schlesien,freie Standesherrschaften,freie Standesherrschaften,freie Standesherrschaften,,,,,,,,,,,,,,,n
+SW,Vorderösterreich,Donaustädte,Donaustädte,Donaustädte,,,,,,,,,,,,,,,n
+NO,albertnisches sachsen,albertinisches Sachsen (nach 1635),albertinisches Sachsen (nach 1635),albertinisches Sachsen (nach 1635),,,,,,,,,,,,,,,n
