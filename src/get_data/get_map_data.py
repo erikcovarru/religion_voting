@@ -1,170 +1,146 @@
 import os
 import requests
-from PIL import Image
-import rasterio
-from rasterio.transform import from_bounds
-import matplotlib.pyplot as plt
-import numpy as np
-import geopandas as gpd
 import re
-import json
+import geopandas as gpd
+import matplotlib.pyplot as plt
+from shapely.geometry import Polygon
 import pandas as pd
-from bs4 import BeautifulSoup
-from rasterio.features import shapes
+import os
+import re
+import requests
+import geopandas as gpd
+import matplotlib.pyplot as plt
+from shapely.geometry import Polygon
+import pandas as pd
 
-# Base URL of the map tiles
-base_url = "https://www.atlas-europa.de/t02/konfessionen/Konfessionen/MAPTILEIMAGES_0/L00"
+# -------------------- STEP 1: DOWNLOAD JS FILES -------------------- #
+base_url = "https://www.atlas-europa.de/t02/konfessionen/Konfessionen/GEOTILES_0"
+output_dir = "../../data/hre/digital_atlas/geotiles"
+os.makedirs(output_dir, exist_ok=True)
 
-# Local directory to save the tiles
-output_dir = "../../data/hre/digital_atlas/tiles"
+def download_js_file(file_url, save_path):
+    try:
+        response = requests.get(file_url, timeout=10)
+        response.raise_for_status()
+        with open(save_path, "wb") as file:
+            file.write(response.content)
+        print(f"✅ Downloaded: {file_url}")
+    except Exception as e:
+        print(f"⚠️ Failed to download {file_url}: {e}")
 
-# Loop through rows (R000000XX)
-for row in range(3):  # Adjust the range based on your structure (e.g., 0 to 2 for 3 rows)
-    row_dir = f"R{row:08d}"  # Format row as R00000000, R00000001, etc.
-    os.makedirs(os.path.join(output_dir, row_dir), exist_ok=True)  # Create subdirectory for rows
-    
-    # Loop through columns (C000000XX)
-    for col in range(3):  # Adjust range based on the number of columns (e.g., 0 to 2 for 3 columns)
-        column_file = f"C{col:08d}.JPG"  # Format column as C00000000.JPG
-        tile_url = f"{base_url}/{row_dir}/{column_file}"  # Full URL for the tile
-        
-        # Save path for the tile
-        save_path = os.path.join(output_dir, row_dir, column_file)
-        
-        try:
-            # Download the tile
-            response = requests.get(tile_url, timeout=10)
-            response.raise_for_status()  # Raise an error for HTTP failures
-            
-            # Save the tile locally
-            with open(save_path, "wb") as file:
-                file.write(response.content)
-            
-            print(f"Downloaded: {tile_url}")
-        
-        except requests.RequestException as e:
-            print(f"Failed to download {tile_url}: {e}")
+tile_dirs = [f"TILES_{i}" for i in range(2)]
+num_tiles_x, num_tiles_y = 10, 10
 
-tile_dir = output_dir
+for tile_dir in tile_dirs:
+    dir_url = f"{base_url}/{tile_dir}"
+    local_dir = os.path.join(output_dir, tile_dir)
+    os.makedirs(local_dir, exist_ok=True)
 
-# Define the tile size (assuming all tiles are the same size)
-tile_size = 256  # Adjust if tiles are not 256x256
+    for row in range(num_tiles_y):
+        for col in range(num_tiles_x):
+            tile_file = f"{row}_{col}.JS"
+            tile_url = f"{dir_url}/{tile_file}"
+            save_path = os.path.join(local_dir, tile_file)
 
-# Get all row directories (e.g., R00000000, R00000001, ...)
-row_dirs = sorted([d for d in os.listdir(tile_dir) if d.startswith("R")])
+            download_js_file(tile_url, save_path)
 
-# Initialize a list to hold stitched rows
-rows = []
-
-# Loop through each row directory
-for row_dir in row_dirs:
-    row_path = os.path.join(tile_dir, row_dir)
-    
-    # Get all tile images (e.g., C00000000.JPG, C00000001.JPG, ...)
-    tiles = sorted([f for f in os.listdir(row_path) if f.endswith(".JPG")])
-    
-    # Open all tiles in the row
-    row_images = [Image.open(os.path.join(row_path, tile)) for tile in tiles]
-    
-    # Determine the total width of the row (number of tiles * tile size)
-    row_width = len(row_images) * tile_size
-    
-    # Create an empty image to hold the stitched row
-    row_combined = Image.new("RGB", (row_width, tile_size))
-    
-    # Paste each tile into the combined row image
-    for i, img in enumerate(row_images):
-        row_combined.paste(img, (i * tile_size, 0))
-    
-    # Add the stitched row to the list of rows
-    rows.append(row_combined)
-
-# Now stitch all rows together into one large image
-# Determine the final map dimensions
-map_height = len(rows) * tile_size  # Number of rows * tile size
-map_width = rows[0].width          # Width of a single row (all rows have the same width)
-
-# Create an empty image to hold the entire stitched map
-combined_map = Image.new("RGB", (map_width, map_height))
-
-# Paste each row into the final stitched map
-for i, row in enumerate(rows):
-    combined_map.paste(row, (0, i * tile_size))
-
-# Save the stitched map as a single image
-stitched_map_path = "../../data/hre/digital_atlas/stitched_map/stitched_map.jpg"
-combined_map.save(stitched_map_path)
-
-print(f"Map stitching complete! Saved as {stitched_map_path}")
+print("✅ All .JS files downloaded.")
 
 
-stitched_map_path = "../../data/hre/digital_atlas/stitched_map/stitched_map.jpg"
-geo_tiff_path = "../../bld/maps/georeferenced_map.tif"
+# -------------------- STEP 2: PARSE JS FILES -------------------- #
+def parse_js_file(file_path, tile_height=2048):
+    """
+    Parse .JS polygons, flipping the Y coordinate to avoid upside-down shapes.
+    Adjust tile_height if your tiles are not 2048 px high.
+    """
+    polygons = []
+    with open(file_path, "r", encoding="utf-8") as f:
+        content = f.read()
 
-# Define the map bounds and CRS
-bounds = (-456230.500963895, 4877042.18607861, 1016818.95627862, 6402413.07213028)  # UL and LR
-crs = "EPSG:32633"
+        # Regex to find coords="...", plus region_id and region_name
+        matches = re.findall(
+            r'coords="([^"]+)" href="javascript:show_popup\((\d+)\);" id="(\d+)_area" title="([^"]+)"',
+            content
+        )
+        for match in matches:
+            coords_str, region_id, _, region_name = match
+            coord_list = list(map(int, coords_str.split(",")))  # e.g. [x1,y1, x2,y2, ...]
 
-# Open the stitched JPEG map
-with Image.open(stitched_map_path) as img:
-    img_data = np.array(img)  # Convert to numpy array
+            # Flip each Y coordinate:  newY = tile_height - oldY
+            # This ensures top-down -> bottom-up
+            points = []
+            for i in range(0, len(coord_list), 2):
+                x = coord_list[i]
+                y = coord_list[i + 1]
+                y_flipped = tile_height - y  # Flip
+                points.append((x, y_flipped))
 
-# Validate the shape of the image data
-if img_data.shape[-1] != 3:  # Ensure it's RGB
-    raise ValueError("Image is not in RGB format!")
+            if len(points) > 2:  # must have >=3 points to form a polygon
+                polygons.append({
+                    "geometry": Polygon(points),
+                    "region_id": int(region_id),
+                    "region_name": region_name
+                })
 
-# Create the GeoTIFF
-height, width, _ = img_data.shape
-with rasterio.open(
-    geo_tiff_path,
-    "w",
-    driver="GTiff",
-    height=height,
-    width=width,
-    count=3,  # Number of bands (R, G, B)
-    dtype="uint8",
-    crs=crs,
-    transform=from_bounds(*bounds, width, height),
-) as dst:
-    dst.write(img_data[:, :, 0], 1)  # Red band
-    dst.write(img_data[:, :, 1], 2)  # Green band
-    dst.write(img_data[:, :, 2], 3)  # Blue band
+    return polygons
 
-print(f"GeoTIFF successfully recreated at {geo_tiff_path}")
+all_polygons = []
+for root, dirs, files in os.walk(output_dir):
+    for file in files:
+        if file.endswith(".JS"):
+            file_path = os.path.join(root, file)
+            # If your tiles are 2048 px high, keep tile_height=2048
+            # Otherwise, adjust to whatever the real tile dimension is.
+            all_polygons.extend(parse_js_file(file_path, tile_height=2048))
 
+if all_polygons:
+    # Create GeoDataFrame
+    gdf = gpd.GeoDataFrame(all_polygons, geometry="geometry")
+
+    # Assign a CRS. Be aware: 
+    # - This "EPSG:32633" is still not correct for real-world 
+    #   unless you do scaling/offset. 
+    # - But flipping the Y here ensures they're not upside down 
+    #   in a naive plot.
+    gdf.crs = "EPSG:32633"
+
+    shapefile_path = "../../data/hre/digital_atlas/map/geotiles_map.shp"
+    gdf.to_file(shapefile_path)
+    print(f"✅ Polygons saved as Shapefile at {shapefile_path}")
+else:
+    print("⚠️ No polygons were extracted from the .JS files!")
+    gdf = gpd.GeoDataFrame(columns=["geometry", "region_id", "region_name"], geometry="geometry")
+
+
+# -------------------- STEP 1: DOWNLOAD JS FILES -------------------- #
 
 # Base URL for attributes
 base_url = "https://www.atlas-europa.de/t02/konfessionen/Konfessionen/ATTRIBUTES_0"
 
 # Local directory to save downloaded attribute files
 output_dir = "../../data/hre/digital_atlas/attributes"
+os.makedirs(output_dir, exist_ok=True)
 
 # List of attribute file names (adjust as per your directory listing)
-attribute_files = [
-    "2.JS", "3.JS", "9.JS", "10.JS", "11.JS", "12.JS", "14.JS",
-    "15.JS", "16.JS", "17.JS", "18.JS", "19.JS", "28.JS"
-]
+attribute_files = [f"{i}.JS" for i in range(0, 40)]  # Adjust range based on actual files
 
-# Loop through each file in the list and download it
+# Download each file
 for file_name in attribute_files:
-    file_url = f"{base_url}/{file_name}"  # Construct the full URL
+    file_url = f"{base_url}/{file_name}"
     save_path = os.path.join(output_dir, file_name)
 
     try:
-        # Download the file
-        print(f"Downloading {file_url}...")
         response = requests.get(file_url, timeout=10)
-        response.raise_for_status()  # Raise an error for bad HTTP responses
-
-        # Save the file locally
+        response.raise_for_status()
         with open(save_path, "wb") as file:
             file.write(response.content)
-        print(f"Saved to {save_path}")
+        print(f"Downloaded: {file_url}")
+    except requests.RequestException as e:
+        print(f"Failed to download {file_url}: {e}")
 
-    except requests.HTTPError as http_err:
-        print(f"HTTP error occurred while downloading {file_url}: {http_err}")
-    except requests.RequestException as req_err:
-        print(f"Request error occurred while downloading {file_url}: {req_err}")
+print("✅ All attribute files downloaded.")
+
+# -------------------- STEP 2: PARSE JS FILES -------------------- #
 
 # Path to the directory containing .js files
 attributes_dir = "../../data/hre/digital_atlas/attributes"
@@ -172,60 +148,64 @@ attributes_dir = "../../data/hre/digital_atlas/attributes"
 # Initialize a list to collect all attributes
 all_attributes = []
 
-# Loop through all .js files and parse their contents
+# Parse .JS files dynamically
 for filename in os.listdir(attributes_dir):
     if filename.endswith(".JS"):
         file_path = os.path.join(attributes_dir, filename)
         with open(file_path, "r", encoding="utf-8") as file:
             js_content = file.read()
-            # Extract data from each `add_content` line
+            # Match the structure of `add_content` calls
             matches = re.findall(r'add_content\((\d+),"(.*?)"\)', js_content)
             for match in matches:
-                region_id = int(match[0])  # ID
-                data = match[1].split(",")  # Split attributes
-                # Parse key-value pairs (e.g., "HT_NAME||Baden-Durlach")
-                parsed_data = {kv.split("||")[0]: kv.split("||")[1] for kv in data}
+                region_id = int(match[0])  # Extract region ID
+                data = match[1].split(",")  # Split attributes by comma
+                parsed_data = {}
+                for item in data:
+                    # Handle `key||value` structure
+                    if "||" in item:
+                        key, value = item.split("||", 1)  # Split into key and value
+                        parsed_data[key.strip()] = value.strip()  # Add to parsed data
                 parsed_data["region_id"] = region_id  # Add region ID
                 all_attributes.append(parsed_data)
 
 # Convert the list of dictionaries into a pandas DataFrame
 attributes_df = pd.DataFrame(all_attributes)
 
+# -------------------- STEP 3: HANDLE MISSING DATA -------------------- #
+
+# Ensure all columns are included, even if some are missing in certain rows
+attributes_df.fillna("", inplace=True)  # Replace NaN with empty strings for better merging
+
 # Inspect the DataFrame
+print(f"Parsed {len(attributes_df)} regions with attributes.")
 print(attributes_df.head())
 
 
-# Convert GeoTIFF raster to polygons
-geo_tiff_path = "../../bld/maps/georeferenced_map.tif"
-with rasterio.open(geo_tiff_path) as src:
-    mask = src.read(1) > 0  # Mask for non-zero regions
-    results = [
-        {"geometry": geometry, "properties": {"value": value}}
-        for geometry, value in shapes(src.read(1), mask=mask, transform=src.transform)
-    ]
+# -------------------- STEP 4: MERGE AND PLOT -------------------- #
 
-# Create a GeoDataFrame from the results
-map_gdf = gpd.GeoDataFrame.from_features(results, crs=src.crs)
-
-# Inspect the GeoDataFrame
-print(map_gdf.head())
+# Ensure `gdf` and `attributes_df` are not empty before merging
+if not gdf.empty and not attributes_df.empty:
+    # Merge GeoDataFrame with attributes DataFrame
+    enriched_gdf = gdf.merge(attributes_df, on="region_id", how="left")
 
 
-# Merge GeoDataFrame with attributes
-merged_map = map_gdf.merge(attributes_df, left_on="value", right_on="region_id", how="left")
-
-# Inspect the merged data
-print(merged_map.head())
-
-# Plot the map with religious confessions
-fig, ax = plt.subplots(figsize=(12, 8))
-merged_map.plot(
-    column="Konf",  # Religious confession
-    cmap="coolwarm",  # Color scheme
-    legend=True,
-    ax=ax
+# Clean column names in the enriched GeoDataFrame
+enriched_gdf.columns = (
+    enriched_gdf.columns.str.strip()  # Remove leading/trailing spaces
+    .str.replace('"', '', regex=False)  # Remove double quotes
+    .str.replace(' ', '_', regex=False)  # Replace spaces with underscores
+    .str.replace("&#", '', regex=False)  # Optional: Remove HTML-encoded characters
 )
 
-plt.title("HRE Map by Religious Confession")
-plt.axis("off")
-plt.show()
+# Clean up problematic columns
+columns_to_clean = ["Konf", "Geb", "HT_NAME", "region_name"]  # Adjust this list based on your DataFrame
+
+for column in columns_to_clean:
+    if column in enriched_gdf.columns:
+        enriched_gdf[column] = enriched_gdf[column].str.strip('" ')  # Remove leading/trailing quotes and spaces
+
+
+# Save the enriched GeoDataFrame as a Shapefile
+enriched_shapefile_path = "../../data/hre/digital_atlas/map/enriched_map.shp"
+enriched_gdf.to_file(enriched_shapefile_path)
+print(f"✅ Enriched map saved as Shapefile at {enriched_shapefile_path}")
