@@ -107,44 +107,41 @@ def plot_map_religion(
 
     plt.show()
 
-# Plot the map and overlay historical polygons
 def overlay_polygons_on_map(
     map_data_religion,
     enriched_gdf,
     religion_column='Catholic',
     filter_column='Konf',
-    filter_value='ka',
+    filter_value='k',
     overlay_color='blue'
 ):
     """
-    Overlay polygons from enriched_gdf onto the existing religion map.
+    Overlay polygons from enriched_gdf onto the existing religion map,
+    ensuring only relevant polygons overlapping with Germany are shown.
     
     :param map_data_religion: A GeoDataFrame already merged with religion data.
     :param enriched_gdf: A GeoDataFrame with historical polygons to overlay.
-    :param religion_column: Column name in map_data_religion (e.g. 'Catholic').
-    :param filter_column: Column in enriched_gdf to filter on (e.g. 'Konf').
-    :param filter_value: Specific value in the filter_column (e.g. 'ka').
+    :param religion_column: Column name in map_data_religion (e.g., 'Catholic').
+    :param filter_column: Column in enriched_gdf to filter on (e.g., 'Konf').
+    :param filter_value: Specific value in the filter_column (e.g., 'k').
     :param overlay_color: Color to draw boundary overlays.
     """
 
-    # 1. Ensure HRE polygons have the correct CRS
-    #    If .crs is None or incorrect, assign the correct one here before reprojecting.
-    #    For example:
-    #    if enriched_gdf.crs is None:
-    #        enriched_gdf.crs = "EPSG:4326"
-    
-    # 2. Reproject historical polygons to match map_data_religion's CRS
+    # Ensure both datasets are in the same CRS
     enriched_gdf = enriched_gdf.to_crs(map_data_religion.crs)
 
-    # 3. Optionally filter polygons (e.g., for Catholic states)
+    # Filter enriched polygons that intersect with Germany
+    enriched_gdf = gpd.sjoin(enriched_gdf, map_data_religion, how="inner", predicate ="intersects")
+
+    # Further filter enriched polygons by the specified column and value
     filtered_gdf = enriched_gdf[enriched_gdf[filter_column] == filter_value]
 
-    # 4. Define color scale range for the underlying religion map
+    # Define color scale range for the underlying religion map
     vmin = map_data_religion[religion_column].quantile(0.05)
     vmax = map_data_religion[religion_column].quantile(0.95)
 
-    # 5. Plot the underlying map_data_religion
-    _ , ax = plt.subplots(1, 1, figsize=(12, 8))
+    # Plot the underlying map_data_religion
+    fig, ax = plt.subplots(figsize=(12, 8))
     map_data_religion.plot(
         column=religion_column,
         cmap='Reds',
@@ -156,15 +153,15 @@ def overlay_polygons_on_map(
         vmax=vmax
     )
 
-    # 6. Overlay HRE polygons
+    # Overlay HRE polygons
     filtered_gdf.boundary.plot(
         ax=ax,
         color=overlay_color,
-        linewidth=1,
-        label=f'Regions ({filter_value})'
+        linewidth=1.5,
+        label=f'{filter_value} Regions'
     )
 
-    # 7. Create a colorbar
+    # Create a colorbar
     divider = make_axes_locatable(ax)
     cax = divider.append_axes("right", size="2%", pad=0.1)
     sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=vmin, vmax=vmax))
@@ -172,11 +169,11 @@ def overlay_polygons_on_map(
     cbar = plt.colorbar(sm, cax=cax)
     cbar.set_label(f'{religion_column} (%)')
 
-    # 8. Add legend for overlay
+    # Add legend for overlay
     legend_elements = [Line2D([0], [0], color=overlay_color, lw=2, label=f'{filter_value} Regions')]
     ax.legend(handles=legend_elements, loc='upper right')
 
-    # 9. Clean up axes and show
+    # Clean up axes and show
     ax.axis('off')
     ax.set_title(f'{religion_column} Distribution with {filter_value} Overlay')
     plt.show()

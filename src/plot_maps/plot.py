@@ -1,4 +1,3 @@
-# Import the necessary functions
 from fun import (
     load_geodata,
     load_religion_data,
@@ -23,12 +22,10 @@ religion_data = load_religion_data(religion_filepath)
 # 3) Merge them
 map_data_religion = merge_data_religion(gem_data, religion_data)
 
-
 # 4) Get enriched HRE map data
-
 enriched_gdf = gpd.read_file(enriched_filepath)
 
-# 4) Plot the map for Catholics
+# 5) Plot the map for Catholics
 plot_map_religion(
     map_data_religion,
     column='Catholic',
@@ -38,7 +35,7 @@ plot_map_religion(
     filename="catholic_distribution_map.png"
 )
 
-# 4) Plot the map for Protestants
+# 6) Plot the map for Protestants
 plot_map_religion(
     map_data_religion,
     column='Protestant',
@@ -48,7 +45,7 @@ plot_map_religion(
     filename="protestant_distribution_map.png"
 )
 
-# 4) Plot the map for None
+# 7) Plot the map for None
 plot_map_religion(
     map_data_religion,
     column='None',
@@ -58,12 +55,12 @@ plot_map_religion(
     filename="none_distribution_map.png"
 )
 
-
-# Plot map with overlay
+# 8) Overlay enriched polygons on Catholic map
 overlay_polygons_on_map(
-    map_data_religion=map_data_religion,
-    enriched_gdf=enriched_gdf,
+    map_data_religion,
+    enriched_gdf,
     religion_column='Catholic',
     filter_column='Konf',
-    filter_value='ka'
+    filter_value='ka"',
+    overlay_color='black'
 )
