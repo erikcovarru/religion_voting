@@ -61,6 +61,6 @@ overlay_polygons_on_map(
     enriched_gdf,
     religion_column='Catholic',
     filter_column='Konf',
-    filter_value='ka"',
+    filter_value='ka',
     overlay_color='black'
 )

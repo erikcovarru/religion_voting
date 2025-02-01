@@ -157,7 +157,7 @@ def overlay_polygons_on_map(
     filtered_gdf.boundary.plot(
         ax=ax,
         color=overlay_color,
-        linewidth=1.5,
+        linewidth=0.5,
         label=f'{filter_value} Regions'
     )
 
