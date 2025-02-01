@@ -110,16 +110,31 @@ def parse_attributes(attributes_dir):
 
 def merge_and_save_enriched_map(stitched_gdf, attributes_df, output_path):
     if not stitched_gdf.empty and not attributes_df.empty:
+        # Merge the GeoDataFrame and attributes DataFrame
         enriched_gdf = stitched_gdf.merge(attributes_df, on="region_id", how="left")
+        
+        # Clean column names
         enriched_gdf.columns = (
             enriched_gdf.columns.str.strip()
             .str.replace('"', '', regex=False)
             .str.replace(' ', '_', regex=False)
             .str.replace("&#", '', regex=False)
         )
+
+        # Clean the content of specific columns
+        columns_to_clean = ["HT_NAME", "Konf", "Geb"]
+        for column in columns_to_clean:
+            if column in enriched_gdf.columns:
+                enriched_gdf[column] = (
+                    enriched_gdf[column]
+                    .str.strip('" ')  # Remove trailing/leading quotes and spaces
+                    .str.replace("&#", '', regex=False)  # Remove HTML entities
+                )
+
+        # Save the enriched GeoDataFrame to file
         enriched_gdf.to_file(output_path)
         print(f"✅ Enriched map saved as Shapefile at {output_path}")
-        return enriched_gdf  # Ensure it returns the merged dataframe
+        return enriched_gdf  # Return the cleaned and merged GeoDataFrame
     else:
         print("⚠️ No data to merge.")
         return None  # Return None explicitly if merging fails
