@@ -4,6 +4,7 @@ import requests
 import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Polygon
+import shapely.wkt
 
 # Define global parameters
 g_rwUL = (-456230.500963895, 6402413.07213028)  # upper-left UTM
@@ -139,3 +140,8 @@ def merge_and_save_enriched_map(stitched_gdf, attributes_df, output_path):
         print("⚠️ No data to merge.")
         return None  # Return None explicitly if merging fails
 
+
+
+def round_geometry(geom, precision=3):
+    # Convert geometry to WKT with rounded coordinates, then load it back
+    return shapely.wkt.loads(shapely.wkt.dumps(geom, rounding_precision=precision))
