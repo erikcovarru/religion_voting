@@ -2,15 +2,16 @@ from fun import (
     load_geodata,
     load_religion_data,
     merge_data_religion,
-    plot_map_religion,
-    overlay_polygons_on_map
+    overlay_catholic_regions_on_map,
+    plot_hre_comparison,
+    plot_religion_maps_side_by_side
 )
 
 import geopandas as gpd
 
 # Define file paths
 geo_filepath = '../../data/shapefiles/vg250_ebenen_1231/DE_VG250.gpkg'
-religion_filepath = '../../data/zensus/1000A-1018_en.xlsx'
+religion_filepath = '../../data/zensus/religion.xlsx'
 enriched_filepath =  '../../data/hre/digital_atlas/map/enriched_map.shp'
 
 # 1) Load geographic data
@@ -25,42 +26,34 @@ map_data_religion = merge_data_religion(gem_data, religion_data)
 # 4) Get enriched HRE map data
 enriched_gdf = gpd.read_file(enriched_filepath)
 
-# 5) Plot the map for Catholics
-plot_map_religion(
+plot_religion_maps_side_by_side(
     map_data_religion,
-    column='Catholic',
-    cmap='Reds',
-    legend_label='Catholics %',
+    columns=['Catholic', 'Protestant', 'None'],
+    cmaps=['Reds', 'Blues', 'Greys'],
+    legend_labels=['Catholics %', 'Protestants %', 'None %'],
     output_folder="../../bld/maps",
-    filename="catholic_distribution_map.png"
+    filename="religion_maps_side_by_side.png"
 )
 
-# 6) Plot the map for Protestants
-plot_map_religion(
-    map_data_religion,
-    column='Protestant',
-    cmap='Blues',
-    legend_label='Protestants %',
-    output_folder="../../bld/maps",
-    filename="protestant_distribution_map.png"
-)
 
-# 7) Plot the map for None
-plot_map_religion(
-    map_data_religion,
-    column='None',
-    cmap='Greys',
-    legend_label='None %',
-    output_folder="../../bld/maps",
-    filename="none_distribution_map.png"
+plot_hre_comparison(
+    enriched_gdf,
+    geb_filter='r',
+    konf_column='Konf',
+    output_file='../../bld/maps/hre_comparison_unique_colors_fixed.png'
 )
 
 # 8) Overlay enriched polygons on Catholic map
-overlay_polygons_on_map(
+# Overlay the clipped polygons on the Catholic map
+overlay_catholic_regions_on_map(
     map_data_religion,
     enriched_gdf,
     religion_column='Catholic',
-    filter_column='Konf',
-    filter_value='ka',
-    overlay_color='black'
+    filter_column_geb='Geb',
+    filter_value_geb='r',
+    filter_column_konf='Konf',
+    filter_value_konf='ka',
+    overlay_color='gray',
+    fill_opacity=0.55
 )
+

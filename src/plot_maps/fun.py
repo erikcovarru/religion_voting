@@ -1,7 +1,11 @@
+import numpy as np
 import geopandas as gpd
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from matplotlib.colors import ListedColormap
+import seaborn as sns
+import contextily as ctx
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 import os
 
@@ -107,41 +111,84 @@ def plot_map_religion(
 
     plt.show()
 
-def overlay_polygons_on_map(
+def plot_religion_maps_side_by_side(
+    map_data_religion,
+    columns=['Catholic', 'Protestant', 'None'],
+    cmaps=['Reds', 'Blues', 'Greys'],
+    legend_labels=['Catholics %', 'Protestants %', 'None %'],
+    output_folder=None,
+    filename="religion_maps_side_by_side.png"
+):
+    map_data_religion = map_data_religion.to_crs(epsg=3857)
+
+    fig, axes = plt.subplots(1, 3, figsize=(30, 12))  # Increased figure size
+
+    for i, (column, cmap, legend_label) in enumerate(zip(columns, cmaps, legend_labels)):
+        ax = axes[i]
+
+        vmin = map_data_religion[column].quantile(0.05)
+        vmax = map_data_religion[column].quantile(0.95)
+
+        map_data_religion.plot(
+            column=column,
+            cmap=cmap,
+            linewidth=0.0,
+            ax=ax,
+            edgecolor='none',
+            legend=False,
+            vmin=vmin,
+            vmax=vmax
+        )
+
+        ax.set_title(f"Distribution of {legend_label}", fontsize=30)  # Larger title
+        ax.axis('off')
+
+        divider = make_axes_locatable(ax)
+        cax = divider.append_axes("right", size="5%", pad=0.1)
+        sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(vmin=vmin, vmax=vmax))
+        sm._A = []
+        cbar = plt.colorbar(sm, cax=cax)
+        cbar.set_label(legend_label, fontsize=18)  # Larger colorbar label
+        cbar.ax.tick_params(labelsize=12)  # Larger ticks on the colorbar
+
+    plt.tight_layout()
+
+    if output_folder:
+        os.makedirs(output_folder, exist_ok=True)
+        output_path = os.path.join(output_folder, filename)
+        plt.savefig(output_path, dpi=300, bbox_inches='tight')
+        print(f"✅ Plot saved to {output_path}")
+
+    plt.show()
+
+def overlay_catholic_regions_on_map(
     map_data_religion,
     enriched_gdf,
     religion_column='Catholic',
-    filter_column='Konf',
-    filter_value='k',
-    overlay_color='blue'
+    filter_column_geb='Geb',
+    filter_value_geb='r',
+    filter_column_konf='Konf',
+    filter_value_konf='ka',
+    overlay_color='gray',
+    fill_opacity=0.3
 ):
-    """
-    Overlay polygons from enriched_gdf onto the existing religion map,
-    ensuring only relevant polygons overlapping with Germany are shown.
-    
-    :param map_data_religion: A GeoDataFrame already merged with religion data.
-    :param enriched_gdf: A GeoDataFrame with historical polygons to overlay.
-    :param religion_column: Column name in map_data_religion (e.g., 'Catholic').
-    :param filter_column: Column in enriched_gdf to filter on (e.g., 'Konf').
-    :param filter_value: Specific value in the filter_column (e.g., 'k').
-    :param overlay_color: Color to draw boundary overlays.
-    """
-
-    # Ensure both datasets are in the same CRS
     enriched_gdf = enriched_gdf.to_crs(map_data_religion.crs)
 
-    # Filter enriched polygons that intersect with Germany
-    enriched_gdf = gpd.sjoin(enriched_gdf, map_data_religion, how="inner", predicate ="intersects")
+    filtered_gdf = enriched_gdf[
+        (enriched_gdf[filter_column_geb] == filter_value_geb) &
+        (enriched_gdf[filter_column_konf] == filter_value_konf)
+    ]
 
-    # Further filter enriched polygons by the specified column and value
-    filtered_gdf = enriched_gdf[enriched_gdf[filter_column] == filter_value]
+    filtered_gdf = filtered_gdf[filtered_gdf.is_valid]
+    germany_boundary = map_data_religion.unary_union
+    clipped_gdf = filtered_gdf.intersection(germany_boundary)
+    clipped_gdf = gpd.GeoDataFrame(geometry=clipped_gdf, crs=map_data_religion.crs)
+    clipped_gdf = clipped_gdf[~clipped_gdf.is_empty]
 
-    # Define color scale range for the underlying religion map
     vmin = map_data_religion[religion_column].quantile(0.05)
     vmax = map_data_religion[religion_column].quantile(0.95)
 
-    # Plot the underlying map_data_religion
-    fig, ax = plt.subplots(figsize=(12, 8))
+    fig, ax = plt.subplots(figsize=(14, 10))  # Increased figure size
     map_data_religion.plot(
         column=religion_column,
         cmap='Reds',
@@ -153,27 +200,79 @@ def overlay_polygons_on_map(
         vmax=vmax
     )
 
-    # Overlay HRE polygons
-    filtered_gdf.boundary.plot(
+    clipped_gdf.plot(
         ax=ax,
         color=overlay_color,
+        alpha=fill_opacity,
+        edgecolor="black",
         linewidth=0.5,
-        label=f'{filter_value} Regions'
+        label="Catholic states within HRE"
     )
 
-    # Create a colorbar
     divider = make_axes_locatable(ax)
     cax = divider.append_axes("right", size="2%", pad=0.1)
     sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=vmin, vmax=vmax))
     sm._A = []
     cbar = plt.colorbar(sm, cax=cax)
-    cbar.set_label(f'{religion_column} (%)')
+    cbar.set_label(f'{religion_column} (%)', fontsize=14)  # Larger label
+    cbar.ax.tick_params(labelsize=12)  # Larger ticks
 
-    # Add legend for overlay
-    legend_elements = [Line2D([0], [0], color=overlay_color, lw=2, label=f'{filter_value} Regions')]
-    ax.legend(handles=legend_elements, loc='upper right')
+    legend_elements = [Line2D([0], [0], color=overlay_color, lw=2, label="Catholic states within HRE")]
+    ax.legend(handles=legend_elements, loc='upper right', fontsize=14)  # Larger legend
 
-    # Clean up axes and show
     ax.axis('off')
-    ax.set_title(f'{religion_column} Distribution with {filter_value} Overlay')
+    ax.set_title("Distribution of Catholics overlayed with HRE borders", fontsize=30)  # Larger title
+    plt.show()
+
+def plot_hre_comparison(
+    enriched_gdf, 
+    geb_filter='r', 
+    konf_column='Konf', 
+    output_file=None
+):
+    hre_gdf = enriched_gdf[enriched_gdf['Geb'] == geb_filter]
+
+    if hre_gdf.empty:
+        print("⚠️ No polities found with Geb =", geb_filter)
+        return
+
+    hre_gdf = hre_gdf.to_crs(epsg=3857)  
+
+    unique_ids = hre_gdf['region_id'].unique()
+    n_colors = len(unique_ids)
+    color_palette = sns.color_palette("tab20", n_colors=n_colors)
+    color_map = {region: color for region, color in zip(unique_ids, color_palette)}
+    hre_gdf['region_color'] = hre_gdf['region_id'].map(color_map)
+
+    fig, axes = plt.subplots(1, 2, figsize=(24, 12))  # Increased figure size
+
+    hre_gdf.plot(
+        color=hre_gdf['region_color'],
+        linewidth=0.5,
+        ax=axes[0],
+        edgecolor='black',
+        legend=False
+    )
+    ctx.add_basemap(axes[0], source=ctx.providers.OpenStreetMap.Mapnik, alpha=0.5)
+    axes[0].set_title("Holy Roman Empire Polities in 1648", fontsize=30)  # Larger title
+    axes[0].axis('off')
+
+    hre_gdf.plot(
+        column=konf_column,
+        cmap='tab10',
+        linewidth=0.5,
+        ax=axes[1],
+        edgecolor='black',
+        legend=True
+    )
+    ctx.add_basemap(axes[1], source=ctx.providers.OpenStreetMap.Mapnik, alpha=0.5)
+    axes[1].set_title("Religions in the Empire", fontsize=30)  # Larger title
+    axes[1].axis('off')
+
+    plt.tight_layout()
+
+    if output_file:
+        plt.savefig(output_file, dpi=300, bbox_inches='tight')
+        print(f"✅ Plot saved to {output_file}")
+
     plt.show()
